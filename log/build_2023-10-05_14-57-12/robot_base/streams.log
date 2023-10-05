@@ -1,0 +1,19 @@
+[2.094s] Invoking command in '/home/kkk/total_care_project/build/robot_base': PYTHONPATH=/home/kkk/total_care_project/build/robot_base/prefix_override:/home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkk/total_care_project/build/robot_base/build --no-deps install_data
+[2.816s] running develop
+[3.039s] running egg_info
+[3.039s] writing robot_base.egg-info/PKG-INFO
+[3.039s] writing dependency_links to robot_base.egg-info/dependency_links.txt
+[3.039s] writing entry points to robot_base.egg-info/entry_points.txt
+[3.039s] writing requirements to robot_base.egg-info/requires.txt
+[3.040s] writing top-level names to robot_base.egg-info/top_level.txt
+[3.043s] reading manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.043s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.089s] running build_ext
+[3.118s] Creating /home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages/robot-base.egg-link (link to .)
+[3.119s] Installing command_web_bridge script to /home/kkk/total_care_project/install/robot_base/bin
+[3.119s] 
+[3.119s] Installed /home/kkk/total_care_project/build/robot_base
+[3.119s] running install_data
+[3.120s] copying resource/robot_base -> /home/kkk/total_care_project/install/robot_base/share/ament_index/resource_index/packages
+[3.120s] copying package.xml -> /home/kkk/total_care_project/install/robot_base/share/robot_base
+[3.155s] Invoked command in '/home/kkk/total_care_project/build/robot_base' returned '0': PYTHONPATH=/home/kkk/total_care_project/build/robot_base/prefix_override:/home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkk/total_care_project/build/robot_base/build --no-deps install_data

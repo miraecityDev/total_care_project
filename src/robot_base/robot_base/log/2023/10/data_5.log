@@ -1,0 +1,12 @@
+2023-10-05 15:52:08,308: Server shutdown
+2023-10-05 15:52:10,600: Server shutdown
+2023-10-05 15:52:12,114: Server shutdown
+2023-10-05 15:52:28,033: TotalCare Robot Home
+2023-10-05 15:56:29,247: TotalCare Robot Home
+2023-10-05 15:56:43,671: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-05 15:57:07,979: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-05 15:57:08,735: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-05 15:57:09,510: {'cmdCode': 'backward', 'cmdValue': '100'}
+2023-10-05 15:57:09,965: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-05 16:06:23,636: Server shutdown
+2023-10-05 16:07:40,604: Server shutdown

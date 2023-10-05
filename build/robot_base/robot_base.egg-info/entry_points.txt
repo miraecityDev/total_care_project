@@ -1,0 +1,3 @@
+[console_scripts]
+command_web_bridge = robot_base.command_web_bridge:main
+

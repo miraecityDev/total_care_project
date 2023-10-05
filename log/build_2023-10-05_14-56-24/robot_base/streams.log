@@ -1,0 +1,24 @@
+[2.109s] Invoking command in '/home/kkk/total_care_project/build/robot_base': PYTHONPATH=/home/kkk/total_care_project/build/robot_base/prefix_override:/home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkk/total_care_project/build/robot_base/build --no-deps install_data
+[2.854s] running develop
+[3.075s] running egg_info
+[3.075s] creating robot_base.egg-info
+[3.075s] writing robot_base.egg-info/PKG-INFO
+[3.075s] writing dependency_links to robot_base.egg-info/dependency_links.txt
+[3.075s] writing entry points to robot_base.egg-info/entry_points.txt
+[3.075s] writing requirements to robot_base.egg-info/requires.txt
+[3.076s] writing top-level names to robot_base.egg-info/top_level.txt
+[3.078s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.079s] reading manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.079s] writing manifest file 'robot_base.egg-info/SOURCES.txt'
+[3.128s] running build_ext
+[3.157s] Creating /home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages/site.py
+[3.161s] Creating /home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages/robot-base.egg-link (link to .)
+[3.161s] Installing command_web_bridge script to /home/kkk/total_care_project/install/robot_base/bin
+[3.162s] 
+[3.162s] Installed /home/kkk/total_care_project/build/robot_base
+[3.162s] running install_data
+[3.162s] creating /home/kkk/total_care_project/install/robot_base/share/ament_index
+[3.162s] creating /home/kkk/total_care_project/install/robot_base/share/ament_index/resource_index
+[3.162s] creating /home/kkk/total_care_project/install/robot_base/share/ament_index/resource_index/packages
+[3.162s] error: can't copy 'resource/robot_base': doesn't exist or not a regular file
+[3.196s] Invoked command in '/home/kkk/total_care_project/build/robot_base' returned '1': PYTHONPATH=/home/kkk/total_care_project/build/robot_base/prefix_override:/home/kkk/total_care_project/install/robot_base/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkk/total_care_project/build/robot_base/build --no-deps install_data

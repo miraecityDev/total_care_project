@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+resource/robot_base
+robot_base/__init__.py
+robot_base/command_web_bridge.py
+robot_base.egg-info/PKG-INFO
+robot_base.egg-info/SOURCES.txt
+robot_base.egg-info/dependency_links.txt
+robot_base.egg-info/entry_points.txt
+robot_base.egg-info/requires.txt
+robot_base.egg-info/top_level.txt
+robot_base.egg-info/zip-safe
