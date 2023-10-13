@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>User Created</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+    </style>
+    <script>
+        setTimeout(function () {
+            window.location.href = "/";  // 3초 후에 로그인 페이지로 리디렉션
+        }, 3000);  // 3000 밀리초 (3초)
+    </script>
+</head>
+<body>
+    <h1>User Created</h1>
+    <p>User "{{ username }}" has been created successfully.</p>
+</body>
+</html>

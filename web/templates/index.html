@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<!--suppress ALL -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="target-densitydpi=device-dpi, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>Miraecity Totalcare Robot</title>
+    <link id="favicon" rel="icon" type="image/x-icon" href="{{ url_for('static', path='logo.ico') }}">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/css/styles.css?v=1') }}">
+</head>
+<body style="background-color:#ffffff;">
+    <p style="font-size:25px;">
+        <u style="color: #4261e5; margin-left: 70%;" id="username">{{username}}</u>
+        <button id="btn_logout" class="custom-btn btn-2" onclick="Logout()"><span>로그 아웃</span></button>
+    </p>
+    <div id="head">
+      <h1>교량 하면 점검용 로보캠 <br> 운용 시스템</h1>
+    </div>
+    <div id="control">
+        <table border='1'>
+            <tr id="robot_head" class="tr-1">
+                <th> 📍 위 치 </th>
+                <th> 🚋 로봇 상태 </th>
+                <th> 💨 속도(m/s) </th>
+                <th> 🚩 로봇 위치(M) </th>
+                <th> 🔋 배터리(%) </th>
+            </tr>
+            <tr id="robot_head">
+                <th id="robot_place"> - </th>
+                <th id="robot_status"> - </th>
+                <th id="robot_speed"> - </th>
+                <th id="robot_position"> - </th>
+                <th id="robot_battery"> - </th>
+            </tr>
+        </table>
+        <p style="font-size:25px;">✔ 교 량
+<!--            <select id='place' style="font-size:25px; height:50px">-->
+<!--                <option value = "서울 신정 차량">서울 신정 차량</option>-->
+<!--                <option value = "서울 창동 차량">서울 창동 차량</option>-->
+<!--                <option value = "서울 수서 차량">서울 수서 차량</option>-->
+<!--                <option value = ""></option>-->
+<!--                <option value = ""></option>-->
+<!--                <option value = ""></option>-->
+<!--            </select>-->
+            <input id='place' type='text' value="월드컵대교" autocomplete="on" style="font-size:25px; width:200px; height:50px;"></input>
+            <button id="btn_place" class="custom-btn btn-1" style="font-size:18px;" onclick=Robot_Place()>선 택</button>
+            <br>✔ 위 치
+            <input id='location' style="font-size:25px; margin-left: 10px" type='number' min='0' max='10000' value='100' onchange='SetLocation()' placeholder="0 - 10000"/>M
+            <button id="btn_location" class="custom-btn btn-1" style="font-size:18px;" onclick=Robot_Control("goto")>위치 이동</button>
+            <button id="btn_target" class="custom-btn btn-1" style="font-size:18px;" onclick=Robot_Control("target")>타겟 이동</button>
+            <br>✔ 속 도
+            <select id='velocity' style="font-size:25px;">
+                <option value = "0.1">0.1</option>
+                <option value = "0.2">0.2</option>
+                <option value = "0.3">0.3</option>
+                <option value = "0.4">0.4</option>
+                <option value = "0.5" selected>0.5</option>
+                <option value = "0.6">0.6</option>
+                <option value = "0.7" >0.7</option>
+                <option value = "0.8">0.8</option>
+                <option value = "0.9">0.9</option>
+                <option value = "1.0">1.0</option>
+            </select>m/s
+            <button id="btn_velocity" class="custom-btn btn-1" style="font-size:18px;" onclick=Robot_Speed()>속도 변경</button>
+            <br>
+            <button id="btn_backward" class="custom-btn btn-3" style="font-size:18px;" onclick=Robot_Control("backward")><span>🔙후진</span></button>
+            <button id="btn_stop" class="custom-btn btn-7" style="font-size:18px;" onclick=Robot_Control("stop")><span>⏹️정지</span></button>
+            <button id="btn_forward" class="custom-btn btn-3" style="font-size:18px;" onclick=Robot_Control("forward")><span>🔜전진</span></button>
+            <br>✔ 조 명
+            <select id='led' style="font-size:25px;">
+                <option value = "ALL" selected>ALL</option>
+                <option value = "ch1">LED1</option>
+                <option value = "ch2">LED2</option>
+                <option value = "ch3">LED3</option>
+                <option value = "ch4">LED4</option>
+            </select>
+            <font size = 5 id = "slider_value_view">0</font>
+            <input id="input_led" oninput = 'ShowSliderValue(this.value)'  type = "range" min='0' max='250' step='10' value='0'>
+            <button id="btn_led" class="custom-btn btn-5" style="font-size:18px;" onclick=Robot_LedController()><span>적 용</span></button>
+        </p>
+<!--        <h1>📷 Robot Cam</h1>-->
+        <div style="display: flex; justify-content: center;">
+<!--            <img style="display: block;" src="http://223.171.146.199:5005/stream" width="480" height="320" onclick="openImage()">-->
+            <img style="display: block;" src="http://218.54.201.186:5005/stream" width="480" height="320" onclick="openImage()">
+            <div style="display: flex; flex-direction: column; justify-content: center; margin-left: 16px;">
+                <p>✔ PTZ 속 도
+                  <select id="ptz_speed" style="font-size: 25px;">
+                    <option value="slow" selected>Slow</option>
+                    <option value="medium">Medium</option>
+                    <option value="fast">Fast</option>
+                  </select>
+                </p>
+                <div style="display: flex; justify-content: center;">
+                <button id="btn_up" class="custom-btn btn-4" style="color:black; font-size:18px; margin: 8px 0;" onclick="PTZ_Control('up')"><span>⬆️</span></button>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <button id="btn_left" class="custom-btn btn-4" style="color:black; font-size:18px; margin-right: 8px;" onclick="PTZ_Control('left')"><span>⬅️</span></button>
+                  <button id="btn_right" class="custom-btn btn-4" style="color:black; font-size:18px; margin-left: 8px;" onclick="PTZ_Control('right')"><span>➡️</span></button>
+                </div>
+                <div style="display: flex; justify-content: center;">
+                <button id="btn_down" class="custom-btn btn-4" style="color:black; font-size:18px; margin: 8px 0;" onclick="PTZ_Control('down')"><span>⬇️</span></button>
+                </div>
+                <div style="display: flex; justify-content: space-between;">
+                  <button id="btn_zoomup" class="custom-btn btn-4" style="color:black; font-size:18px; margin-right: 8px;" onclick="PTZ_Control('zoom_up')"><span>🔍+</span></button>
+                  <button id="btn_zoomdown" class="custom-btn btn-4" style="color:black; font-size:18px; margin-left: 8px;" onclick="PTZ_Control('zoom_down')"><span>🔎-</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <button id="btn_reboot" class="custom-btn btn-9" onclick="showRebootConfirmation()"><span>reboot</span></button>
+    <script>
+        const request = new XMLHttpRequest();
+        const url = "http://192.168.70.65:5005/";
+        // const url = "http://223.171.146.199:5005/";
+        let target_position = 100;
+        let robot_status = {};
+        const status_path = "status";
+        const stream_path = "stream";
+        const ptz_path = "ptz";
+        const move_path = "move";
+        const led_path = "led";
+        const reboot_path = "reboot"
+
+        let user = "";
+
+        // 페이지가 로드된 후 실행되는 JavaScript 코드
+        document.addEventListener("DOMContentLoaded", function () {
+            const usernameElement = document.getElementById("username");
+            const logoutButton = document.getElementById("btn_logout");
+
+            // 사용자 이름을 가져와서 u 요소에 표시
+            user = usernameElement.textContent;
+        });
+
+        function openImage(){
+            window.open(url+stream_path, "_blank")
+        }
+
+        function ShowSliderValue(sVal) {
+	        var obValueView = document.getElementById("slider_value_view");
+	        obValueView.innerHTML = sVal;
+        }
+
+        // 로봇 응답 데이터 파싱
+        function startShowingMessage(elem, url){
+            setInterval(async function() {
+                const response = await fetch(url);
+                const text = await response.text();
+                let status = "";
+                elem.textContent = JSON.parse(text);
+                // console.log(elem.textContent)
+                if (elem.textContent["status"] == "forward"){
+                    status = "전 진";
+                }else if (elem.textContent["status"] == "stop"){
+                    status = "정 지";
+                }else if (elem.textContent["status"] == "backward"){
+                    status = "후 진";
+                }else{
+                    status = "-";
+                }
+                document.getElementById("robot_place").innerHTML = elem.textContent["place"];
+                document.getElementById("robot_status").innerHTML = status;
+                document.getElementById("robot_speed").innerHTML = Math.abs(elem.textContent["speed"]).toFixed(1);
+                document.getElementById("robot_position").innerHTML = elem.textContent["position"].toFixed(1);
+                document.getElementById("robot_battery").innerHTML = elem.textContent["battery"];
+            }, 1000);
+        }
+
+        // 로봇 상태 응답
+        setInterval(startShowingMessage(robot_status, url+status_path), 1000);
+
+        // 로봇 이동 위치
+        function SetLocation() {
+            target_position = document.getElementById('location').value;
+            if (target_position < 0 || target_position == null) {
+                target_position = 0;
+            }
+        }
+
+        // 주행용 카메라 PTZ 제어
+        function PTZ_Control(command) {
+            try {
+                const v = document.getElementById("ptz_speed");
+                const velocity = v.options[v.selectedIndex].value;
+                if (command == "zoom_up") {
+                    command = "zoom up";
+                } else if (command == "zoom_down") {
+                    command = "zoom down";
+                }
+                const data = {
+                    cmdCode: command,
+                    cmdTime: velocity
+                };
+                request.onreadystatechange = function (event) {
+                    if (request.readyState == 4 && request.status == 200) {
+                        // console.log(request.responseText);
+                    }
+                }
+                // POST 설정
+                request.open('POST', url + ptz_path, true);
+
+                // POST 전송시, 데이터 전달을 위한 설정
+                request.setRequestHeader('Content-type', 'application/json');
+                request.send(JSON.stringify(data));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // 로봇 제어
+        function Robot_Control(command) {
+            try {
+                var command_value = '';
+                if (command == "forward" || command == "backward" || command == "goto" || command == "target"){
+                    command_value = target_position;
+                } else if (command == "stop"){
+                    command_value = '0';
+                }
+                const data = {
+                    cmdCode: command,
+                    cmdValue: command_value,
+                };
+                const request = new XMLHttpRequest();
+                request.onreadystatechange = function(event) {
+                    if (request.readyState == 4 && request.status == 200){
+                        // console.log(request.responseText);
+                    }
+                }
+                // POST 설정
+                request.open('POST', url+move_path, true);
+                // POST 전송시, 데이터 전달을 위한 설정
+                request.setRequestHeader('Content-type', 'application/json');
+                request.send(JSON.stringify(data));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // 로봇 속도 변경
+        function Robot_Speed() {
+            try {
+                const v = document.getElementById("velocity");
+                const velocity = v.options[v.selectedIndex].value;
+                const data = {
+                    cmdCode: "speed",
+                    cmdValue: parseFloat(velocity)
+                };
+                request.onreadystatechange = function (event) {
+                    if (request.readyState == 4 && request.status == 200) {
+                        // console.log(request.responseText);
+                    }
+                }
+                // POST 설정
+                request.open('POST', url + move_path, true);
+
+                // POST 전송시, 데이터 전달을 위한 설정
+                request.setRequestHeader('Content-type', 'application/json');
+                request.send(JSON.stringify(data));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // 로봇 장소 선택
+        function Robot_Place() {
+            try {
+                const v = document.getElementById("velocity");
+                const velocity = v.options[v.selectedIndex].value;
+                const place = document.getElementById("place").value;
+                // const place_value = place.options[place.selectedIndex].value;
+                const data = {
+                    cmdCode: "place",
+                    cmdValue: place
+                };
+                request.onreadystatechange = function (event) {
+                    if (request.readyState == 4 && request.status == 200) {
+                        // console.log(request.responseText);
+                    }
+                }
+                // POST 설정
+                request.open('POST', url + move_path, true);
+
+                // POST 전송시, 데이터 전달을 위한 설정
+                request.setRequestHeader('Content-type', 'application/json');
+                request.send(JSON.stringify(data));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // 로봇 LED 제어
+        function Robot_LedController() {
+            try {
+                const l = document.getElementById("led");
+                const led = l.options[l.selectedIndex].value;
+                const val = document.getElementById("input_led").value.padStart(3, '0');
+                const data = {
+                    cmdCode: led,
+                    cmdValue: val
+                };
+                request.onreadystatechange = function (event) {
+                    if (request.readyState == 4 && request.status == 200) {
+                        // console.log(request.responseText);
+                    }
+                }
+                // POST 설정
+                request.open('POST', url + led_path, true);
+                // POST 전송시, 데이터 전달을 위한 설정
+                request.setRequestHeader('Content-type', 'application/json');
+                request.send(JSON.stringify(data));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+
+        // 로봇 키보드 제어
+        window.addEventListener("keydown", function(event) {
+            if (event.key == "ArrowRight") {
+                console.log("PTZ Right");
+                PTZ_Control("right");
+            } else if (event.key == "ArrowLeft") {
+                console.log("PTZ Left");
+                PTZ_Control("left");
+            } else if (event.key == "ArrowUp") {
+                console.log("PTZ Up");
+                PTZ_Control("up");
+            } else if (event.key == "ArrowDown") {
+                console.log("PTZ Down");
+                PTZ_Control("down");
+            } else if (event.key == "z") {
+                console.log("PTZ Zoom up");
+                PTZ_Control("zoom_up");
+            } else if (event.key == "x") {
+                console.log("PTZ Zoom down");
+                PTZ_Control("zoom_down");
+            } else if (event.key == "d") {
+                console.log("Move Forward");
+                Robot_Control("forward");
+            } else if (event.key == "a") {
+                console.log("Move Backward");
+                Robot_Control("backward");
+            } else if (event.key == "s") {
+                console.log("Stop");
+                Robot_Control("stop");
+            } else if (event.key == "m") {
+                console.log("Move Location");
+                Robot_Control("goto");
+            } else if (event.key == "v") {
+                console.log("Change Speed");
+                Robot_Speed();
+            }
+        });
+
+        // 로그아웃
+        async function Logout() {
+            try {
+                const response = await fetch('/logout', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify({username: user})
+                });
+
+                if (response.ok) {
+                    // Logout was successful
+                    window.location.href = '/'; // 로그인 페이지 또는 다른 적절한 페이지로 리디렉션
+                } else {
+                    const responseData = await response.json();
+                    alert(`로그아웃 실패: ${responseData.message}`);
+                }
+            } catch (error) {
+                console.error('로그아웃 중 오류 발생:', error);
+            }
+        }
+
+        // 로봇 재시작
+        function showRebootConfirmation() {
+            const confirmed = confirm("로봇을 재시작 하시겠습니까?");
+            if (confirmed) {
+                // 여기에 로봇 재시작을 위한 코드를 추가합니다.
+                rebootRobot();
+            }
+        }
+
+        function rebootRobot() {
+            // 로봇 재시작을 위한 로직을 작성합니다.
+            // 예를 들어, 서버로 재시작 명령을 보내는 등의 작업을 수행할 수 있습니다.
+            // 이 함수에서 실제로 로봇을 재시작하는 코드를 구현해야 합니다.
+            console.log("로봇 재시작 중...");
+            try {
+                const data = {};
+                request.onreadystatechange = function (event) {
+                    if (request.readyState == 4 && request.status == 200) {
+                        // console.log(request.responseText);
+                    }
+                }
+                // POST 설정
+                request.open('POST', url + reboot_path, true);
+                // POST 전송시, 데이터 전달을 위한 설정
+                request.setRequestHeader('Content-type', 'application/json');
+                request.send(JSON.stringify(data));
+            } catch (error) {
+                console.error(error);
+            }
+        }
+    </script>
+</body>
+</html>
