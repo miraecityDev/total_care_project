@@ -1,0 +1,9 @@
+[31mCMake Error at /home/kkk/ros2_humble/install/rosidl_cmake/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+  rosidl_generate_interfaces() the passed file 'msg/Someting.msg' doesn't
+  exist relative to the CMAKE_CURRENT_SOURCE_DIR
+  '/home/kkk/total_care_project/src/communication_interface'
+Call Stack (most recent call first):
+  CMakeLists.txt:28 (rosidl_generate_interfaces)
+
+[0m
+make: *** [Makefile:747: cmake_check_build_system] Error 1

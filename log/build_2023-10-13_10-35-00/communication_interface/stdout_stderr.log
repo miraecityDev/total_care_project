@@ -1,0 +1,180 @@
+-- Found ament_cmake: 1.3.5 (/home/kkk/ros2_humble/install/ament_cmake/share/ament_cmake/cmake)
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found builtin_interfaces: 1.2.1 (/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/home/kkk/ros2_humble/install/rosidl_adapter/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found rosidl_default_generators: 1.2.0 (/home/kkk/ros2_humble/install/rosidl_default_generators/share/rosidl_default_generators/cmake)
+-- Found ament_cmake_ros: 0.10.0 (/home/kkk/ros2_humble/install/ament_cmake_ros/share/ament_cmake_ros/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_introspection_c;rosidl_typesupport_fastrtps_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_introspection_cpp;rosidl_typesupport_fastrtps_cpp
+-- Found python_cmake_module: 0.10.0 (/home/kkk/ros2_humble/install/python_cmake_module/share/python_cmake_module/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+-- Found ament_lint_auto: 0.12.7 (/home/kkk/ros2_humble/install/ament_lint_auto/share/ament_lint_auto/cmake)
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/kkk/total_care_project/build/communication_interface
+[  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[  3%] Built target ament_cmake_python_symlink_communication_interface
+[  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[  6%] Built target communication_interface__cpp
+[  9%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o[0m
+[ 12%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[ 19%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+running egg_info
+writing communication_interface.egg-info/PKG-INFO
+writing dependency_links to communication_interface.egg-info/dependency_links.txt
+writing top-level names to communication_interface.egg-info/top_level.txt
+[ 22%] [32m[1mLinking C shared library libcommunication_interface__rosidl_generator_c.so[0m
+reading manifest file 'communication_interface.egg-info/SOURCES.txt'
+writing manifest file 'communication_interface.egg-info/SOURCES.txt'
+[ 22%] Built target communication_interface__rosidl_generator_c
+[ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[ 32%] Built target ament_cmake_python_build_communication_interface_egg
+[ 35%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/action__type_support.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interface/srv/action__type_support.cpp.o[0m
+[ 41%] [32m[1mLinking CXX shared library libcommunication_interface__rosidl_typesupport_cpp.so[0m
+[ 41%] Built target communication_interface__rosidl_typesupport_cpp
+[ 45%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interface/srv/detail/dds_fastrtps/action__type_support.cpp.o[0m
+[ 48%] [32m[1mLinking CXX shared library libcommunication_interface__rosidl_typesupport_introspection_cpp.so[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/communication_interface/srv/detail/action__type_support_c.cpp.o[0m
+[ 51%] Built target communication_interface__rosidl_typesupport_introspection_cpp
+[ 54%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interface/srv/action__type_support.cpp.o[0m
+[ 58%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/communication_interface/srv/detail/action__type_support.c.o[0m
+[ 61%] [32m[1mLinking CXX shared library libcommunication_interface__rosidl_typesupport_c.so[0m
+[ 64%] [32m[1mLinking C shared library libcommunication_interface__rosidl_typesupport_introspection_c.so[0m
+[ 64%] Built target communication_interface__rosidl_typesupport_c
+[ 64%] Built target communication_interface__rosidl_typesupport_introspection_c
+[ 67%] [32m[1mLinking CXX shared library libcommunication_interface__rosidl_typesupport_fastrtps_cpp.so[0m
+[ 70%] [32m[1mLinking CXX shared library libcommunication_interface__rosidl_typesupport_fastrtps_c.so[0m
+[ 70%] Built target communication_interface__rosidl_typesupport_fastrtps_cpp
+[ 70%] Built target communication_interface__rosidl_typesupport_fastrtps_c
+[ 70%] Built target communication_interface
+[ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[ 74%] Built target communication_interface__py
+[ 77%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o[0m
+[ 80%] [32m[1mLinking C shared library rosidl_generator_py/communication_interface/libcommunication_interface__rosidl_generator_py.so[0m
+[ 80%] Built target communication_interface__rosidl_generator_py
+[ 87%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/communication_interface/_communication_interface_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[ 87%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/communication_interface/_communication_interface_s.ep.rosidl_typesupport_c.c.o[0m
+[ 90%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/communication_interface/_communication_interface_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[ 93%] [32m[1mLinking C shared library rosidl_generator_py/communication_interface/communication_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[ 96%] [32m[1mLinking C shared library rosidl_generator_py/communication_interface/communication_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] [32m[1mLinking C shared library rosidl_generator_py/communication_interface/communication_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[100%] Built target communication_interface__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target communication_interface__rosidl_typesupport_c__pyext
+[100%] Built target communication_interface__rosidl_typesupport_introspection_c__pyext
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/ament_index/resource_index/rosidl_interfaces/communication_interface
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/msg/rosidl_generator_c__visibility_control.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/action.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__functions.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__struct.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__type_support.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/library_path.sh
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/library_path.dsv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__rosidl_typesupport_fastrtps_c.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/action.hpp
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__builder.hpp
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__struct.hpp
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__traits.hpp
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__rosidl_typesupport_fastrtps_cpp.hpp
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__rosidl_typesupport_introspection_c.h
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/include/communication_interface/communication_interface/srv/detail/action__rosidl_typesupport_introspection_cpp.hpp
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/pythonpath.sh
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/pythonpath.dsv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface-0.0.0-py3.8.egg-info/PKG-INFO
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface-0.0.0-py3.8.egg-info/SOURCES.txt
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface-0.0.0-py3.8.egg-info/dependency_links.txt
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface-0.0.0-py3.8.egg-info/top_level.txt
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/__init__.py
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/_communication_interface_s.ep.rosidl_typesupport_c.c
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/_communication_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/_communication_interface_s.ep.rosidl_typesupport_introspection_c.c
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/communication_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/communication_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/communication_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/libcommunication_interface__rosidl_generator_py.so
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/srv/__init__.py
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/srv/_action.py
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/srv/_action_s.c
+-- Up-to-date symlink: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/communication_interface_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/communication_interface_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+-- Up-to-date symlink: /home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/communication_interface_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/srv/Action.idl
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/srv/Action.srv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/srv/Action_Request.msg
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/srv/Action_Response.msg
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/ament_index/resource_index/package_run_dependencies/communication_interface
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/ament_index/resource_index/parent_prefix_path/communication_interface
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/ament_prefix_path.sh
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/ament_prefix_path.dsv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/path.sh
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/environment/path.dsv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/local_setup.bash
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/local_setup.sh
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/local_setup.zsh
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/local_setup.dsv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.dsv
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/ament_index/resource_index/packages/communication_interface
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/rosidl_cmake-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interfaceConfig.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interfaceConfig-version.cmake
+-- Symlinking: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.xml
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_generator_c.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_generator_c.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_c.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_typesupport_cpp.so" to ""
+Listing '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface'...
+Compiling '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/__init__.py'...
+Listing '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/srv'...
+Compiling '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/srv/__init__.py'...
+Compiling '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages/communication_interface/srv/_action.py'...
+-- Installing: /home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_generator_py.so
+-- Set runtime path of "/home/kkk/total_care_project/install/communication_interface/lib/libcommunication_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/communication_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/kkk/total_care_project/install/communication_interface/share/communication_interface/cmake/export_communication_interface__rosidl_generator_pyExport-noconfig.cmake

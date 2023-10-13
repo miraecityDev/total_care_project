@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
         'command_web_bridge = robot_base.command_web_bridge:main',
+        'action_server = robot_base.action_server:main',
         ],
     },
 )

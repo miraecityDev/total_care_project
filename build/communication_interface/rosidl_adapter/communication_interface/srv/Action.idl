@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from communication_interface/srv/Action.srv
+// generated code does not contain a copyright notice
+
+
+module communication_interface {
+  module srv {
+    struct Action_Request {
+      string cmd_code;
+
+      string cmd_value;
+    };
+    struct Action_Response {
+      string message;
+    };
+  };
+};

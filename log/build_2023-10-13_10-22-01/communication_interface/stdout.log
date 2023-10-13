@@ -1,0 +1,13 @@
+[  3%] Built target communication_interface__cpp
+[  6%] [32mBuilding C object CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o[0m
+[  6%] Built target ament_cmake_python_symlink_communication_interface
+[  9%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/action__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/communication_interface/srv/action__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/communication_interface__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/communication_interface/srv/detail/dds_fastrtps/action__type_support.cpp.o[0m
+running egg_info
+writing communication_interface.egg-info/PKG-INFO
+writing dependency_links to communication_interface.egg-info/dependency_links.txt
+writing top-level names to communication_interface.egg-info/top_level.txt
+reading manifest file 'communication_interface.egg-info/SOURCES.txt'
+writing manifest file 'communication_interface.egg-info/SOURCES.txt'
+[ 16%] Built target ament_cmake_python_build_communication_interface_egg

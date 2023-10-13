@@ -1,0 +1,30 @@
+{
+  "package_name": "communication_interface",
+  "output_dir": "/home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface",
+  "template_dir": "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface:srv/Action.idl"
+  ],
+  "ros_interface_dependencies": [
+    "builtin_interfaces:/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/lib/python3.8/site-packages/rosidl_generator_py/__init__.py",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/lib/python3.8/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/home/kkk/ros2_humble/install/rosidl_generator_py/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Action.idl",
+    "/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
+    "/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
+  ]
+}
