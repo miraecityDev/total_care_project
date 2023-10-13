@@ -155,7 +155,7 @@ def create_jwt_token(user_id: str):
         str: The JWT token.
     """
     expiration_time = datetime.utcnow() + timedelta(minutes=JWT_EXPIRATION_TIME_MINUTES)
-    jwt_payload = {"sub": user_id, "exp": expiration_time}
+    jwt_payload = {"id": user_id, "exp": expiration_time}
     jwt_token = jwt.encode(jwt_payload, JWT_SECRET, algorithm=JWT_ALGORITHM)
     return jwt_token
 
@@ -176,11 +176,13 @@ def decode_jwt_token(token: str):
     """
     try:
         decoded_token = jwt.decode(token, JWT_SECRET, algorithms=[JWT_ALGORITHM])
-        user_id = decoded_token["sub"]
+        user_id = decoded_token["id"]
         return user_id
     except jwt.ExpiredSignatureError as exc:
+        app.logger.error("Token has expired")
         raise HTTPException(status_code=401, detail="Token has expired") from exc
     except jwt.InvalidTokenError as exc:
+        app.logger.error("Invalid token")
         raise HTTPException(status_code=401, detail="Invalid token") from exc
 
 
@@ -263,7 +265,7 @@ async def index_page(request: Request, current_user: str = Depends(decode_jwt_to
     Args:
         request (Request): The incoming request.
         user (User, optional): The current logged-in user. The default is obtained
-        through Depends(decode_jwt_token).
+        through Depends on(decode_jwt_token).
 
     Returns:
         TemplateResponse: The index page template.
@@ -423,32 +425,46 @@ async def reboot():
     return {"result": "success"}
 
 
+# Create user
 @app.get("/create", response_class=HTMLResponse)
 async def create_user_form(request: Request):
+    """
+    Create the user registration form.
+
+    Args:
+        request (Request): The incoming HTTP request.
+
+    Returns:
+        HTMLResponse: A response containing the user registration form.
+    """
     return templates.TemplateResponse("create.html", {"request": request})
 
-
-# Create user
+# Created user
 @app.post("/create_user", response_class=HTMLResponse)
 async def create_user(request: Request, username: str = Form(...), password: str = Form(...)):
     """
     Create a new user account.
 
     Args:
-        user (CreateUser): User creation request.
+        username (str): Username
+        password (str): Password
 
     Returns:
-        dict: Dictionary indicating the creation result.
+        dict: A dictionary representing the result of the account creation.
         :param password:
-        :param request:
         :param username:
+        :param request:
     """
-    ret = user_manage.create_user(username, password)
-    if ret:
-        app.logger.info(f"User {username} has been created")
-    else:
-        raise HTTPException(status_code=422, detail="계정 생성 실패")
-    return templates.TemplateResponse("user_created.html", {"request": request, "username": username})
+    try:
+        ret = user_manage.create_user(username, password)
+        if ret:
+            app.logger.info(f"User {username} has been created")
+        else:
+            raise HTTPException(status_code=422, detail="계정 생성 실패")
+        return templates.TemplateResponse("user_created.html", {"request": request, "username": username})
+    except Exception as err:
+        app.logger.error(f"Error creating user: {str(err)}")
+        raise
 
 
 # Login endpoint
@@ -464,16 +480,20 @@ async def login(form_data: OAuth2PasswordRequestForm = Depends()):
     Returns:
         dict: A dictionary containing the access token and token type.
     """
-    user = authenticate_user(form_data.username, form_data.password)
-    if user is None:
-        raise HTTPException(status_code=401, detail="사용자 이름 또는 비밀번호를 확인해주세요")
-    # Generates an access token for the user.
-    jwt_token = create_jwt_token(user.user_id)
+    try:
+        user = authenticate_user(form_data.username, form_data.password)
+        if user is None:
+            raise HTTPException(status_code=401, detail="사용자 이름 또는 비밀번호를 확인해주세요")
+        # Generates an access token for the user.
+        jwt_token = create_jwt_token(user.user_id)
 
-    # Add login users to the list.
-    LOGIN_USER.append(LoggedInUser(user.user_id, jwt_token))
-
-    return {"access_token": jwt_token, "token_type": "bearer"}
+        # Add login users to the list.
+        LOGIN_USER.append(LoggedInUser(user.user_id, jwt_token))
+        app.logger.info(f"User '{user.user_id}' has logged in")
+        return {"access_token": jwt_token, "token_type": "bearer"}
+    except Exception as err:
+        app.logger.error(f"Error during login: {str(err)}")
+        raise
 
 
 # Logout endpoint
@@ -487,6 +507,7 @@ async def logout(request: Request):
     username_to_logout = json_data.get("username")
     global LOGIN_USER
     LOGIN_USER = [user for user in LOGIN_USER if user.user_id != username_to_logout]
+    app.logger.info(f"User '{username_to_logout}' has logged out")
     return {"message": "로그아웃되었습니다."}
 
 
