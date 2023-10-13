@@ -1,0 +1,12 @@
+2023-10-13 11:08:36,087: TotalCare Robot Home
+2023-10-13 11:08:41,724: Error during login: [Errno 2] No such file or directory: './lib/users.json'
+2023-10-13 11:08:43,239: Error during login: [Errno 2] No such file or directory: './lib/users.json'
+2023-10-13 11:09:03,808: Error creating user: 
+2023-10-13 11:09:31,672: User master has been created
+2023-10-13 11:09:34,706: TotalCare Robot Home
+2023-10-13 11:09:41,279: User 'master' has logged in
+2023-10-13 11:10:58,427: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 11:10:59,304: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 11:11:00,332: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 11:11:02,409: {'cmdCode': 'backward', 'cmdValue': '100'}
+2023-10-13 11:15:56,546: Server shutdown

@@ -19,6 +19,14 @@ from fastapi import FastAPI, Form, Request, Depends, HTTPException
 from passlib.context import CryptContext
 import user_management as user_manage
 import uvicorn
+import rclpy
+from rclpy.node import Node
+
+
+class WebController(Node):
+    def __init__(self):
+        super().__init__('web_controller')
+
 
 # 상수
 TEMPLATES_PATH = r"templates"
@@ -533,17 +541,18 @@ async def shutdown():
     """
     app.logger.info("Server shutdown")
 
+def main():
+    rclpy.init()
 
-if __name__ == "__main__":
+    web_controller = WebController()
+
     try:
-        uvicorn.run(
-            "web_controller:app",
-            host="0.0.0.0",
-            port=5005,
-            log_level="info",
-            reload=True,
-            timeout_keep_alive=5
-        )
+        uvicorn.run("web_controller.web_controller:app",
+                    host="0.0.0.0",
+                    port=5005,
+                    log_level="info",
+                    reload=True,
+                    timeout_keep_alive=5)
         # uvicorn.run("web_controller:app",
         #             host="0.0.0.0",
         #             port=5005,
@@ -553,5 +562,12 @@ if __name__ == "__main__":
         #             reload=True,
         #             timeout_keep_alive=5)
     except Exception as e:
-        app.logger.error("An error occurred: %s", e)
+        print("Web Controller Exception")
         uvicorn.stop()
+
+    web_controller.destroy_node()
+    rclpy.shutdown()
+
+
+if __name__ == "__main__":
+    main()
