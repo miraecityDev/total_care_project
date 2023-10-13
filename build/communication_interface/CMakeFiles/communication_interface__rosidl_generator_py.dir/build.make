@@ -69,28 +69,28 @@ include CMakeFiles/communication_interface__rosidl_generator_py.dir/progress.mak
 # Include the compile flags for this target's objects.
 include CMakeFiles/communication_interface__rosidl_generator_py.dir/flags.make
 
-CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o: CMakeFiles/communication_interface__rosidl_generator_py.dir/flags.make
-CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o: rosidl_generator_py/communication_interface/srv/_action_s.c
-CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o: CMakeFiles/communication_interface__rosidl_generator_py.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kkk/total_care_project/build/communication_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o -MF CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o.d -o CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o -c /home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_action_s.c
+CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o: CMakeFiles/communication_interface__rosidl_generator_py.dir/flags.make
+CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o: rosidl_generator_py/communication_interface/srv/_command_s.c
+CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o: CMakeFiles/communication_interface__rosidl_generator_py.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kkk/total_care_project/build/communication_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o -MF CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o.d -o CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o -c /home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_command_s.c
 
-CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_action_s.c > CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.i
+CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_command_s.c > CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.i
 
-CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_action_s.c -o CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.s
+CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_command_s.c -o CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.s
 
 # Object files for target communication_interface__rosidl_generator_py
 communication_interface__rosidl_generator_py_OBJECTS = \
-"CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o"
+"CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o"
 
 # External object files for target communication_interface__rosidl_generator_py
 communication_interface__rosidl_generator_py_EXTERNAL_OBJECTS =
 
-rosidl_generator_py/communication_interface/libcommunication_interface__rosidl_generator_py.so: CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o
+rosidl_generator_py/communication_interface/libcommunication_interface__rosidl_generator_py.so: CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o
 rosidl_generator_py/communication_interface/libcommunication_interface__rosidl_generator_py.so: CMakeFiles/communication_interface__rosidl_generator_py.dir/build.make
 rosidl_generator_py/communication_interface/libcommunication_interface__rosidl_generator_py.so: /usr/lib/x86_64-linux-gnu/libpython3.8.so
 rosidl_generator_py/communication_interface/libcommunication_interface__rosidl_generator_py.so: libcommunication_interface__rosidl_typesupport_c.so

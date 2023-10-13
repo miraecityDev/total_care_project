@@ -1,0 +1,23 @@
+running develop
+running egg_info
+creating web_controller.egg-info
+writing web_controller.egg-info/PKG-INFO
+writing dependency_links to web_controller.egg-info/dependency_links.txt
+writing entry points to web_controller.egg-info/entry_points.txt
+writing requirements to web_controller.egg-info/requires.txt
+writing top-level names to web_controller.egg-info/top_level.txt
+writing manifest file 'web_controller.egg-info/SOURCES.txt'
+reading manifest file 'web_controller.egg-info/SOURCES.txt'
+writing manifest file 'web_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/kkk/total_care_project/install/web_controller/lib/python3.8/site-packages/site.py
+Creating /home/kkk/total_care_project/install/web_controller/lib/python3.8/site-packages/web-controller.egg-link (link to .)
+Installing web_controller script to /home/kkk/total_care_project/install/web_controller/lib/web_controller
+
+Installed /home/kkk/total_care_project/build/web_controller
+running install_data
+creating /home/kkk/total_care_project/install/web_controller/share/ament_index
+creating /home/kkk/total_care_project/install/web_controller/share/ament_index/resource_index
+creating /home/kkk/total_care_project/install/web_controller/share/ament_index/resource_index/packages
+copying resource/web_controller -> /home/kkk/total_care_project/install/web_controller/share/ament_index/resource_index/packages
+copying package.xml -> /home/kkk/total_care_project/install/web_controller/share/web_controller

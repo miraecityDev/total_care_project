@@ -18,7 +18,7 @@ set(msg_files
 )
 
 set(srv_files
-  "srv/Action.srv"
+  "srv/Command.srv"
 )
 
 set(action_files

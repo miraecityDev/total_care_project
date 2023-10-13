@@ -69,59 +69,59 @@ include CMakeFiles/communication_interface__rosidl_generator_c.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/communication_interface__rosidl_generator_c.dir/flags.make
 
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/lib/rosidl_generator_c/rosidl_generator_c
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/action__type_support.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.c.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__struct.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__type_support.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.c.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__struct.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__type_support.h.em
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.h.em
-rosidl_generator_c/communication_interface/srv/action.h: rosidl_adapter/communication_interface/srv/Action.idl
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_c/communication_interface/srv/action.h: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/lib/rosidl_generator_c/rosidl_generator_c
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/lib/python3.8/site-packages/rosidl_generator_c/__init__.py
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/action__type_support.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.c.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__functions.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__struct.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/idl__type_support.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.c.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__functions.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__struct.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/msg__type_support.h.em
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/resource/srv__type_support.h.em
+rosidl_generator_c/communication_interface/srv/command.h: rosidl_adapter/communication_interface/srv/Command.idl
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_c/communication_interface/srv/command.h: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kkk/total_care_project/build/communication_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C code for ROS interfaces"
 	/usr/bin/python3.8 /home/kkk/ros2_humble/install/rosidl_generator_c/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c --generator-arguments-file /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c__arguments.json
 
-rosidl_generator_c/communication_interface/srv/detail/action__functions.h: rosidl_generator_c/communication_interface/srv/action.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/action__functions.h
+rosidl_generator_c/communication_interface/srv/detail/command__functions.h: rosidl_generator_c/communication_interface/srv/command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/command__functions.h
 
-rosidl_generator_c/communication_interface/srv/detail/action__struct.h: rosidl_generator_c/communication_interface/srv/action.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/action__struct.h
+rosidl_generator_c/communication_interface/srv/detail/command__struct.h: rosidl_generator_c/communication_interface/srv/command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/command__struct.h
 
-rosidl_generator_c/communication_interface/srv/detail/action__type_support.h: rosidl_generator_c/communication_interface/srv/action.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/action__type_support.h
+rosidl_generator_c/communication_interface/srv/detail/command__type_support.h: rosidl_generator_c/communication_interface/srv/command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/command__type_support.h
 
-rosidl_generator_c/communication_interface/srv/detail/action__functions.c: rosidl_generator_c/communication_interface/srv/action.h
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/action__functions.c
+rosidl_generator_c/communication_interface/srv/detail/command__functions.c: rosidl_generator_c/communication_interface/srv/command.h
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_c/communication_interface/srv/detail/command__functions.c
 
-CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o: CMakeFiles/communication_interface__rosidl_generator_c.dir/flags.make
-CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o: rosidl_generator_c/communication_interface/srv/detail/action__functions.c
-CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o: CMakeFiles/communication_interface__rosidl_generator_c.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kkk/total_care_project/build/communication_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o -MF CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o.d -o CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o -c /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/action__functions.c
+CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o: CMakeFiles/communication_interface__rosidl_generator_c.dir/flags.make
+CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o: rosidl_generator_c/communication_interface/srv/detail/command__functions.c
+CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o: CMakeFiles/communication_interface__rosidl_generator_c.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/kkk/total_care_project/build/communication_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o -MF CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o.d -o CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o -c /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/command__functions.c
 
-CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/action__functions.c > CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.i
+CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.i"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/command__functions.c > CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.i
 
-CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/action__functions.c -o CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.s
+CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.s"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/command__functions.c -o CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.s
 
 # Object files for target communication_interface__rosidl_generator_c
 communication_interface__rosidl_generator_c_OBJECTS = \
-"CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o"
+"CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o"
 
 # External object files for target communication_interface__rosidl_generator_c
 communication_interface__rosidl_generator_c_EXTERNAL_OBJECTS =
 
-libcommunication_interface__rosidl_generator_c.so: CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/action__functions.c.o
+libcommunication_interface__rosidl_generator_c.so: CMakeFiles/communication_interface__rosidl_generator_c.dir/rosidl_generator_c/communication_interface/srv/detail/command__functions.c.o
 libcommunication_interface__rosidl_generator_c.so: CMakeFiles/communication_interface__rosidl_generator_c.dir/build.make
 libcommunication_interface__rosidl_generator_c.so: /home/kkk/ros2_humble/install/builtin_interfaces/lib/libbuiltin_interfaces__rosidl_generator_c.so
 libcommunication_interface__rosidl_generator_c.so: /home/kkk/ros2_humble/install/rosidl_runtime_c/lib/librosidl_runtime_c.so
@@ -138,11 +138,11 @@ CMakeFiles/communication_interface__rosidl_generator_c.dir/clean:
 	$(CMAKE_COMMAND) -P CMakeFiles/communication_interface__rosidl_generator_c.dir/cmake_clean.cmake
 .PHONY : CMakeFiles/communication_interface__rosidl_generator_c.dir/clean
 
-CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/action.h
-CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/action__functions.c
-CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/action__functions.h
-CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/action__struct.h
-CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/action__type_support.h
+CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/command.h
+CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/command__functions.c
+CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/command__functions.h
+CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/command__struct.h
+CMakeFiles/communication_interface__rosidl_generator_c.dir/depend: rosidl_generator_c/communication_interface/srv/detail/command__type_support.h
 	cd /home/kkk/total_care_project/build/communication_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/kkk/total_care_project/src/communication_interface /home/kkk/total_care_project/src/communication_interface /home/kkk/total_care_project/build/communication_interface /home/kkk/total_care_project/build/communication_interface /home/kkk/total_care_project/build/communication_interface/CMakeFiles/communication_interface__rosidl_generator_c.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/communication_interface__rosidl_generator_c.dir/depend
 

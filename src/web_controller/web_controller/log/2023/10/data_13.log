@@ -10,3 +10,72 @@
 2023-10-13 11:11:00,332: {'cmdCode': 'forward', 'cmdValue': '100'}
 2023-10-13 11:11:02,409: {'cmdCode': 'backward', 'cmdValue': '100'}
 2023-10-13 11:15:56,546: Server shutdown
+2023-10-13 13:50:04,684: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 13:50:09,828: {'cmdCode': 'backward', 'cmdValue': '100'}
+2023-10-13 13:50:11,719: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 13:51:46,663: Server shutdown
+2023-10-13 13:54:35,845: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 13:55:16,757: Server shutdown
+2023-10-13 13:55:37,594: Server shutdown
+2023-10-13 13:55:39,314: Server shutdown
+2023-10-13 13:55:41,053: Server shutdown
+2023-10-13 13:55:46,654: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:02:17,547: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:02:20,517: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:02:38,261: Server shutdown
+2023-10-13 14:02:41,880: Server shutdown
+2023-10-13 14:02:45,817: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:02:48,006: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:02:56,462: Server shutdown
+2023-10-13 14:02:59,594: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:03:01,507: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:03:03,711: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:03:05,534: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:03:06,644: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:03:24,692: Server shutdown
+2023-10-13 14:03:54,517: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:03:59,409: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:05:02,965: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:05:31,676: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:07:12,158: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:08:35,063: Server shutdown
+2023-10-13 14:08:39,588: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:09:01,795: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:02,974: {'cmdCode': 'backward', 'cmdValue': '100'}
+2023-10-13 14:09:04,272: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:06,154: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:09:08,029: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:08,922: {'cmdCode': 'backward', 'cmdValue': '100'}
+2023-10-13 14:09:09,386: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:10,165: {'cmdCode': 'forward', 'cmdValue': '100'}
+2023-10-13 14:09:11,568: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:12,559: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:12,695: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:12,836: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:12,971: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,114: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,393: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,411: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,684: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,704: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,819: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:13,955: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,105: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,247: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,397: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,547: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,697: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,840: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:14,989: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:15,348: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:15,619: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:15,637: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:15,910: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,185: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,205: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,221: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,241: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,354: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,713: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:16,985: {'cmdCode': 'stop', 'cmdValue': '0'}
+2023-10-13 14:09:17,011: {'cmdCode': 'stop', 'cmdValue': '0'}

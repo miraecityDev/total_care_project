@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kkk/total_care_project/build/communication_interface/rosidl_typesupport_c/communication_interface/srv/action__type_support.cpp" "CMakeFiles/communication_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interface/srv/action__type_support.cpp.o" "gcc" "CMakeFiles/communication_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interface/srv/action__type_support.cpp.o.d"
+  "/home/kkk/total_care_project/build/communication_interface/rosidl_typesupport_c/communication_interface/srv/command__type_support.cpp" "CMakeFiles/communication_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interface/srv/command__type_support.cpp.o" "gcc" "CMakeFiles/communication_interface__rosidl_typesupport_c.dir/rosidl_typesupport_c/communication_interface/srv/command__type_support.cpp.o.d"
   )
 
 # Targets to which this target links.

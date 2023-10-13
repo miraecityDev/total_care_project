@@ -1,0 +1,307 @@
+[3.679s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--packages-select', 'communication_interface']
+[3.679s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fab6356b820>>, merge_install=False, metas=['./colcon.meta'], mixin=None, mixin_files=None, mixin_verb=('build',), packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=['communication_interface'], packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fab6356b820>, verb_name='build', verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7fab634a29a0>)
+[3.807s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[3.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[3.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[3.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[3.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[3.808s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[3.808s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/kkk/total_care_project'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[3.808s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[3.819s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[3.820s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extensions ['ignore', 'ignore_ament_install']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extension 'ignore'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extension 'ignore_ament_install'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extensions ['colcon_pkg']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extension 'colcon_pkg'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extensions ['colcon_meta']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extension 'colcon_meta'
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extensions ['ros']
+[3.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/communication_interface) by extension 'ros'
+[3.823s] DEBUG:colcon.colcon_core.package_identification:Package 'src/communication_interface' with type 'ros.ament_cmake' and name 'communication_interface'
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['ignore', 'ignore_ament_install']
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'ignore'
+[3.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'ignore_ament_install'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['colcon_pkg']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'colcon_pkg'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['colcon_meta']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'colcon_meta'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extensions ['ros']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_base) by extension 'ros'
+[3.824s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_base' with type 'ros.ament_python' and name 'robot_base'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'ignore'
+[3.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'ignore_ament_install'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extensions ['colcon_pkg']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'colcon_pkg'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extensions ['colcon_meta']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'colcon_meta'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extensions ['ros']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'ros'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extensions ['cmake', 'python']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'cmake'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'python'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extensions ['python_setup_py']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver) by extension 'python_setup_py'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/build) by extensions ['ignore', 'ignore_ament_install']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/build) by extension 'ignore'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/build) ignored
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/install) by extensions ['ignore', 'ignore_ament_install']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/install) by extension 'ignore'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/install) ignored
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/log) by extensions ['ignore', 'ignore_ament_install']
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/log) by extension 'ignore'
+[3.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/log) ignored
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extensions ['ignore', 'ignore_ament_install']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'ignore'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'ignore_ament_install'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extensions ['colcon_pkg']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'colcon_pkg'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extensions ['colcon_meta']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'colcon_meta'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extensions ['ros']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'ros'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extensions ['cmake', 'python']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'cmake'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'python'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extensions ['python_setup_py']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src) by extension 'python_setup_py'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extensions ['ignore', 'ignore_ament_install']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'ignore'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'ignore_ament_install'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extensions ['colcon_pkg']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'colcon_pkg'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extensions ['colcon_meta']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'colcon_meta'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extensions ['ros']
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'ros'
+[3.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extensions ['cmake', 'python']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'cmake'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'python'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extensions ['python_setup_py']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver) by extension 'python_setup_py'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ignore', 'ignore_ament_install']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ignore_ament_install'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_pkg']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_pkg'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['colcon_meta']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'colcon_meta'
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extensions ['ros']
+[3.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup) by extension 'ros'
+[3.828s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup' with type 'ros.ament_cmake' and name 'ur_bringup'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ignore', 'ignore_ament_install']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ignore_ament_install'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_pkg']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_pkg'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['colcon_meta']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'colcon_meta'
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extensions ['ros']
+[3.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration) by extension 'ros'
+[3.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration' with type 'ros.ament_cmake' and name 'ur_calibration'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ignore', 'ignore_ament_install']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ignore_ament_install'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_pkg']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_pkg'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['colcon_meta']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'colcon_meta'
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extensions ['ros']
+[3.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers) by extension 'ros'
+[3.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers' with type 'ros.ament_cmake' and name 'ur_controllers'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ignore', 'ignore_ament_install']
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ignore_ament_install'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_pkg']
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_pkg'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['colcon_meta']
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'colcon_meta'
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extensions ['ros']
+[3.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs) by extension 'ros'
+[3.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs' with type 'ros.ament_cmake' and name 'ur_dashboard_msgs'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ignore_ament_install'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_pkg']
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_pkg'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['colcon_meta']
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'colcon_meta'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extensions ['ros']
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config) by extension 'ros'
+[3.832s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config' with type 'ros.ament_cmake' and name 'ur_moveit_config'
+[3.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ignore', 'ignore_ament_install']
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore'
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ignore_ament_install'
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_pkg']
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_pkg'
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['colcon_meta']
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'colcon_meta'
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extensions ['ros']
+[3.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver) by extension 'ros'
+[3.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver' with type 'ros.ament_cmake' and name 'ur_robot_driver'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extensions ['ignore', 'ignore_ament_install']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extension 'ignore'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extension 'ignore_ament_install'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extensions ['colcon_pkg']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extension 'colcon_pkg'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extensions ['colcon_meta']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extension 'colcon_meta'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extensions ['ros']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/service_clients) by extension 'ros'
+[3.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/service_clients' with type 'ros.ament_python' and name 'service_clients'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['ignore', 'ignore_ament_install']
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'ignore'
+[3.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'ignore_ament_install'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['colcon_pkg']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'colcon_pkg'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['colcon_meta']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'colcon_meta'
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extensions ['ros']
+[3.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/web_controller) by extension 'ros'
+[3.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/web_controller' with type 'ros.ament_python' and name 'web_controller'
+[3.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[3.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[3.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[3.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[3.836s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'robot_base' in 'src/robot_base'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'service_clients' in 'src/service_clients'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_dashboard_msgs' in 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_dashboard_msgs'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_moveit_config' in 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_moveit_config'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'web_controller' in 'src/web_controller'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_controllers' in 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_bringup' in 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_bringup'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_robot_driver' in 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_robot_driver'
+[4.023s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ur_calibration' in 'src/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_calibration'
+[4.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[4.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[4.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/kkk/total_care_project/install
+[4.268s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 344 installed packages in /home/kkk/ros2_humble/install
+[4.270s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'cmake_args' from command line to 'None'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'cmake_target' from command line to 'None'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'cmake_clean_first' from command line to 'False'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'cmake_force_configure' from command line to 'False'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'ament_cmake_args' from command line to 'None'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[4.389s] Level 5:colcon.colcon_core.verb:set package 'communication_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[4.389s] DEBUG:colcon.colcon_core.verb:Building package 'communication_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/kkk/total_care_project/build/communication_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/kkk/total_care_project/install/communication_interface', 'merge_install': False, 'path': '/home/kkk/total_care_project/src/communication_interface', 'symlink_install': True, 'test_result_base': None}
+[4.437s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[4.486s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[4.486s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/kkk/total_care_project/src/communication_interface' with build type 'ament_cmake'
+[4.486s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/kkk/total_care_project/src/communication_interface'
+[4.538s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[4.539s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.539s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkk/total_care_project/build/communication_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkk/total_care_project/install/web_controller:/home/kkk/total_care_project/install/service_clients:/home/kkk/total_care_project/install/robot_base:/home/kkk/ros2_humble/install/rqt_bag_plugins:/home/kkk/ros2_humble/install/rqt_bag:/home/kkk/ros2_humble/install/ros2bag:/home/kkk/ros2_humble/install/tracetools_test:/home/kkk/ros2_humble/install/tracetools_launch:/home/kkk/ros2_humble/install/topic_monitor:/home/kkk/ros2_humble/install/tf2_tools:/home/kkk/ros2_humble/install/examples_tf2_py:/home/kkk/ros2_humble/install/tf2_ros_py:/home/kkk/ros2_humble/install/sros2:/home/kkk/ros2_humble/install/rqt_topic:/home/kkk/ros2_humble/install/rqt_srv:/home/kkk/ros2_humble/install/rqt_shell:/home/kkk/ros2_humble/install/rqt_service_caller:/home/kkk/ros2_humble/install/rqt_reconfigure:/home/kkk/ros2_humble/install/rqt_py_console:/home/kkk/ros2_humble/install/rqt_publisher:/home/kkk/ros2_humble/install/rqt_plot:/home/kkk/ros2_humble/install/rqt_action:/home/kkk/ros2_humble/install/rqt_msg:/home/kkk/ros2_humble/install/rqt_console:/home/kkk/ros2_humble/install/rqt:/home/kkk/ros2_humble/install/rqt_graph:/home/kkk/ros2_humble/install/rqt_gui_py:/home/kkk/ros2_humble/install/rqt_gui:/home/kkk/ros2_humble/install/ros2trace:/home/kkk/ros2_humble/install/ros2topic:/home/kkk/ros2_humble/install/ros2test:/home/kkk/ros2_humble/install/ros2component:/home/kkk/ros2_humble/install/ros2param:/home/kkk/ros2_humble/install/ros2lifecycle:/home/kkk/ros2_humble/install/ros2service:/home/kkk/ros2_humble/install/ros2run:/home/kkk/ros2_humble/install/ros2launch:/home/kkk/ros2_humble/install/ros2pkg:/home/kkk/ros2_humble/install/ros2node:/home/kkk/ros2_humble/install/ros2multicast:/home/kkk/ros2_humble/install/ros2interface:/home/kkk/ros2_humble/install/ros2doctor:/home/kkk/ros2_humble/install/ros2action:/home/kkk/ros2_humble/install/ros2cli:/home/kkk/ros2_humble/install/quality_of_service_demo_py:/home/kkk/ros2_humble/install/lifecycle_py:/home/kkk/ros2_humble/install/launch_testing_ros:/home/kkk/ros2_humble/install/launch_ros:/home/kkk/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/kkk/ros2_humble/install/examples_rclpy_minimal_service:/home/kkk/ros2_humble/install/examples_rclpy_minimal_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_client:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_server:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_client:/home/kkk/ros2_humble/install/examples_rclpy_guard_conditions:/home/kkk/ros2_humble/install/examples_rclpy_executors:/home/kkk/ros2_humble/install/demo_nodes_py:/home/kkk/ros2_humble/install/action_tutorials_py:/home/kkk/ros2_humble/install/ament_uncrustify:/home/kkk/ros2_humble/install/tracetools_trace:/home/kkk/ros2_humble/install/tracetools_read:/home/kkk/ros2_humble/install/test_tracetools_launch:/home/kkk/ros2_humble/install/test_launch_ros:/home/kkk/ros2_humble/install/sensor_msgs_py:/home/kkk/ros2_humble/install/rpyutils:/home/kkk/ros2_humble/install/rosidl_runtime_py:/home/kkk/ros2_humble/install/rosidl_cli:/home/kkk/ros2_humble/install/launch_pytest:/home/kkk/ros2_humble/install/launch_testing:/home/kkk/ros2_humble/install/launch_yaml:/home/kkk/ros2_humble/install/launch_xml:/home/kkk/ros2_humble/install/launch:/home/kkk/ros2_humble/install/osrf_pycommon:/home/kkk/ros2_humble/install/launch_testing_examples:/home/kkk/ros2_humble/install/domain_coordinator:/home/kkk/ros2_humble/install/ament_xmllint:/home/kkk/ros2_humble/install/ament_pyflakes:/home/kkk/ros2_humble/install/ament_pycodestyle:/home/kkk/ros2_humble/install/ament_pep257:/home/kkk/ros2_humble/install/ament_pclint:/home/kkk/ros2_humble/install/ament_package:/home/kkk/ros2_humble/install/ament_mypy:/home/kkk/ros2_humble/install/ament_lint_cmake:/home/kkk/ros2_humble/install/ament_flake8:/home/kkk/ros2_humble/install/ament_copyright:/home/kkk/ros2_humble/install/ament_lint:/home/kkk/ros2_humble/install/ament_index_python:/home/kkk/ros2_humble/install/ament_cpplint:/home/kkk/ros2_humble/install/ament_cppcheck:/home/kkk/ros2_humble/install/ament_clang_tidy:/home/kkk/ros2_humble/install/ament_clang_format /usr/local/bin/cmake --build /home/kkk/total_care_project/build/communication_interface -- -j8 -l8
+[16.083s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkk/total_care_project/build/communication_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkk/total_care_project/install/web_controller:/home/kkk/total_care_project/install/service_clients:/home/kkk/total_care_project/install/robot_base:/home/kkk/ros2_humble/install/rqt_bag_plugins:/home/kkk/ros2_humble/install/rqt_bag:/home/kkk/ros2_humble/install/ros2bag:/home/kkk/ros2_humble/install/tracetools_test:/home/kkk/ros2_humble/install/tracetools_launch:/home/kkk/ros2_humble/install/topic_monitor:/home/kkk/ros2_humble/install/tf2_tools:/home/kkk/ros2_humble/install/examples_tf2_py:/home/kkk/ros2_humble/install/tf2_ros_py:/home/kkk/ros2_humble/install/sros2:/home/kkk/ros2_humble/install/rqt_topic:/home/kkk/ros2_humble/install/rqt_srv:/home/kkk/ros2_humble/install/rqt_shell:/home/kkk/ros2_humble/install/rqt_service_caller:/home/kkk/ros2_humble/install/rqt_reconfigure:/home/kkk/ros2_humble/install/rqt_py_console:/home/kkk/ros2_humble/install/rqt_publisher:/home/kkk/ros2_humble/install/rqt_plot:/home/kkk/ros2_humble/install/rqt_action:/home/kkk/ros2_humble/install/rqt_msg:/home/kkk/ros2_humble/install/rqt_console:/home/kkk/ros2_humble/install/rqt:/home/kkk/ros2_humble/install/rqt_graph:/home/kkk/ros2_humble/install/rqt_gui_py:/home/kkk/ros2_humble/install/rqt_gui:/home/kkk/ros2_humble/install/ros2trace:/home/kkk/ros2_humble/install/ros2topic:/home/kkk/ros2_humble/install/ros2test:/home/kkk/ros2_humble/install/ros2component:/home/kkk/ros2_humble/install/ros2param:/home/kkk/ros2_humble/install/ros2lifecycle:/home/kkk/ros2_humble/install/ros2service:/home/kkk/ros2_humble/install/ros2run:/home/kkk/ros2_humble/install/ros2launch:/home/kkk/ros2_humble/install/ros2pkg:/home/kkk/ros2_humble/install/ros2node:/home/kkk/ros2_humble/install/ros2multicast:/home/kkk/ros2_humble/install/ros2interface:/home/kkk/ros2_humble/install/ros2doctor:/home/kkk/ros2_humble/install/ros2action:/home/kkk/ros2_humble/install/ros2cli:/home/kkk/ros2_humble/install/quality_of_service_demo_py:/home/kkk/ros2_humble/install/lifecycle_py:/home/kkk/ros2_humble/install/launch_testing_ros:/home/kkk/ros2_humble/install/launch_ros:/home/kkk/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/kkk/ros2_humble/install/examples_rclpy_minimal_service:/home/kkk/ros2_humble/install/examples_rclpy_minimal_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_client:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_server:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_client:/home/kkk/ros2_humble/install/examples_rclpy_guard_conditions:/home/kkk/ros2_humble/install/examples_rclpy_executors:/home/kkk/ros2_humble/install/demo_nodes_py:/home/kkk/ros2_humble/install/action_tutorials_py:/home/kkk/ros2_humble/install/ament_uncrustify:/home/kkk/ros2_humble/install/tracetools_trace:/home/kkk/ros2_humble/install/tracetools_read:/home/kkk/ros2_humble/install/test_tracetools_launch:/home/kkk/ros2_humble/install/test_launch_ros:/home/kkk/ros2_humble/install/sensor_msgs_py:/home/kkk/ros2_humble/install/rpyutils:/home/kkk/ros2_humble/install/rosidl_runtime_py:/home/kkk/ros2_humble/install/rosidl_cli:/home/kkk/ros2_humble/install/launch_pytest:/home/kkk/ros2_humble/install/launch_testing:/home/kkk/ros2_humble/install/launch_yaml:/home/kkk/ros2_humble/install/launch_xml:/home/kkk/ros2_humble/install/launch:/home/kkk/ros2_humble/install/osrf_pycommon:/home/kkk/ros2_humble/install/launch_testing_examples:/home/kkk/ros2_humble/install/domain_coordinator:/home/kkk/ros2_humble/install/ament_xmllint:/home/kkk/ros2_humble/install/ament_pyflakes:/home/kkk/ros2_humble/install/ament_pycodestyle:/home/kkk/ros2_humble/install/ament_pep257:/home/kkk/ros2_humble/install/ament_pclint:/home/kkk/ros2_humble/install/ament_package:/home/kkk/ros2_humble/install/ament_mypy:/home/kkk/ros2_humble/install/ament_lint_cmake:/home/kkk/ros2_humble/install/ament_flake8:/home/kkk/ros2_humble/install/ament_copyright:/home/kkk/ros2_humble/install/ament_lint:/home/kkk/ros2_humble/install/ament_index_python:/home/kkk/ros2_humble/install/ament_cpplint:/home/kkk/ros2_humble/install/ament_cppcheck:/home/kkk/ros2_humble/install/ament_clang_tidy:/home/kkk/ros2_humble/install/ament_clang_format /usr/local/bin/cmake --build /home/kkk/total_care_project/build/communication_interface -- -j8 -l8
+[16.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/kkk/total_care_project/build/communication_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkk/total_care_project/install/web_controller:/home/kkk/total_care_project/install/service_clients:/home/kkk/total_care_project/install/robot_base:/home/kkk/ros2_humble/install/rqt_bag_plugins:/home/kkk/ros2_humble/install/rqt_bag:/home/kkk/ros2_humble/install/ros2bag:/home/kkk/ros2_humble/install/tracetools_test:/home/kkk/ros2_humble/install/tracetools_launch:/home/kkk/ros2_humble/install/topic_monitor:/home/kkk/ros2_humble/install/tf2_tools:/home/kkk/ros2_humble/install/examples_tf2_py:/home/kkk/ros2_humble/install/tf2_ros_py:/home/kkk/ros2_humble/install/sros2:/home/kkk/ros2_humble/install/rqt_topic:/home/kkk/ros2_humble/install/rqt_srv:/home/kkk/ros2_humble/install/rqt_shell:/home/kkk/ros2_humble/install/rqt_service_caller:/home/kkk/ros2_humble/install/rqt_reconfigure:/home/kkk/ros2_humble/install/rqt_py_console:/home/kkk/ros2_humble/install/rqt_publisher:/home/kkk/ros2_humble/install/rqt_plot:/home/kkk/ros2_humble/install/rqt_action:/home/kkk/ros2_humble/install/rqt_msg:/home/kkk/ros2_humble/install/rqt_console:/home/kkk/ros2_humble/install/rqt:/home/kkk/ros2_humble/install/rqt_graph:/home/kkk/ros2_humble/install/rqt_gui_py:/home/kkk/ros2_humble/install/rqt_gui:/home/kkk/ros2_humble/install/ros2trace:/home/kkk/ros2_humble/install/ros2topic:/home/kkk/ros2_humble/install/ros2test:/home/kkk/ros2_humble/install/ros2component:/home/kkk/ros2_humble/install/ros2param:/home/kkk/ros2_humble/install/ros2lifecycle:/home/kkk/ros2_humble/install/ros2service:/home/kkk/ros2_humble/install/ros2run:/home/kkk/ros2_humble/install/ros2launch:/home/kkk/ros2_humble/install/ros2pkg:/home/kkk/ros2_humble/install/ros2node:/home/kkk/ros2_humble/install/ros2multicast:/home/kkk/ros2_humble/install/ros2interface:/home/kkk/ros2_humble/install/ros2doctor:/home/kkk/ros2_humble/install/ros2action:/home/kkk/ros2_humble/install/ros2cli:/home/kkk/ros2_humble/install/quality_of_service_demo_py:/home/kkk/ros2_humble/install/lifecycle_py:/home/kkk/ros2_humble/install/launch_testing_ros:/home/kkk/ros2_humble/install/launch_ros:/home/kkk/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/kkk/ros2_humble/install/examples_rclpy_minimal_service:/home/kkk/ros2_humble/install/examples_rclpy_minimal_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_client:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_server:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_client:/home/kkk/ros2_humble/install/examples_rclpy_guard_conditions:/home/kkk/ros2_humble/install/examples_rclpy_executors:/home/kkk/ros2_humble/install/demo_nodes_py:/home/kkk/ros2_humble/install/action_tutorials_py:/home/kkk/ros2_humble/install/ament_uncrustify:/home/kkk/ros2_humble/install/tracetools_trace:/home/kkk/ros2_humble/install/tracetools_read:/home/kkk/ros2_humble/install/test_tracetools_launch:/home/kkk/ros2_humble/install/test_launch_ros:/home/kkk/ros2_humble/install/sensor_msgs_py:/home/kkk/ros2_humble/install/rpyutils:/home/kkk/ros2_humble/install/rosidl_runtime_py:/home/kkk/ros2_humble/install/rosidl_cli:/home/kkk/ros2_humble/install/launch_pytest:/home/kkk/ros2_humble/install/launch_testing:/home/kkk/ros2_humble/install/launch_yaml:/home/kkk/ros2_humble/install/launch_xml:/home/kkk/ros2_humble/install/launch:/home/kkk/ros2_humble/install/osrf_pycommon:/home/kkk/ros2_humble/install/launch_testing_examples:/home/kkk/ros2_humble/install/domain_coordinator:/home/kkk/ros2_humble/install/ament_xmllint:/home/kkk/ros2_humble/install/ament_pyflakes:/home/kkk/ros2_humble/install/ament_pycodestyle:/home/kkk/ros2_humble/install/ament_pep257:/home/kkk/ros2_humble/install/ament_pclint:/home/kkk/ros2_humble/install/ament_package:/home/kkk/ros2_humble/install/ament_mypy:/home/kkk/ros2_humble/install/ament_lint_cmake:/home/kkk/ros2_humble/install/ament_flake8:/home/kkk/ros2_humble/install/ament_copyright:/home/kkk/ros2_humble/install/ament_lint:/home/kkk/ros2_humble/install/ament_index_python:/home/kkk/ros2_humble/install/ament_cpplint:/home/kkk/ros2_humble/install/ament_cppcheck:/home/kkk/ros2_humble/install/ament_clang_tidy:/home/kkk/ros2_humble/install/ament_clang_format /usr/local/bin/cmake --install /home/kkk/total_care_project/build/communication_interface
+[16.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication_interface)
+[16.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/kkk/total_care_project/build/communication_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/kkk/total_care_project/install/web_controller:/home/kkk/total_care_project/install/service_clients:/home/kkk/total_care_project/install/robot_base:/home/kkk/ros2_humble/install/rqt_bag_plugins:/home/kkk/ros2_humble/install/rqt_bag:/home/kkk/ros2_humble/install/ros2bag:/home/kkk/ros2_humble/install/tracetools_test:/home/kkk/ros2_humble/install/tracetools_launch:/home/kkk/ros2_humble/install/topic_monitor:/home/kkk/ros2_humble/install/tf2_tools:/home/kkk/ros2_humble/install/examples_tf2_py:/home/kkk/ros2_humble/install/tf2_ros_py:/home/kkk/ros2_humble/install/sros2:/home/kkk/ros2_humble/install/rqt_topic:/home/kkk/ros2_humble/install/rqt_srv:/home/kkk/ros2_humble/install/rqt_shell:/home/kkk/ros2_humble/install/rqt_service_caller:/home/kkk/ros2_humble/install/rqt_reconfigure:/home/kkk/ros2_humble/install/rqt_py_console:/home/kkk/ros2_humble/install/rqt_publisher:/home/kkk/ros2_humble/install/rqt_plot:/home/kkk/ros2_humble/install/rqt_action:/home/kkk/ros2_humble/install/rqt_msg:/home/kkk/ros2_humble/install/rqt_console:/home/kkk/ros2_humble/install/rqt:/home/kkk/ros2_humble/install/rqt_graph:/home/kkk/ros2_humble/install/rqt_gui_py:/home/kkk/ros2_humble/install/rqt_gui:/home/kkk/ros2_humble/install/ros2trace:/home/kkk/ros2_humble/install/ros2topic:/home/kkk/ros2_humble/install/ros2test:/home/kkk/ros2_humble/install/ros2component:/home/kkk/ros2_humble/install/ros2param:/home/kkk/ros2_humble/install/ros2lifecycle:/home/kkk/ros2_humble/install/ros2service:/home/kkk/ros2_humble/install/ros2run:/home/kkk/ros2_humble/install/ros2launch:/home/kkk/ros2_humble/install/ros2pkg:/home/kkk/ros2_humble/install/ros2node:/home/kkk/ros2_humble/install/ros2multicast:/home/kkk/ros2_humble/install/ros2interface:/home/kkk/ros2_humble/install/ros2doctor:/home/kkk/ros2_humble/install/ros2action:/home/kkk/ros2_humble/install/ros2cli:/home/kkk/ros2_humble/install/quality_of_service_demo_py:/home/kkk/ros2_humble/install/lifecycle_py:/home/kkk/ros2_humble/install/launch_testing_ros:/home/kkk/ros2_humble/install/launch_ros:/home/kkk/ros2_humble/install/examples_rclpy_pointcloud_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_subscriber:/home/kkk/ros2_humble/install/examples_rclpy_minimal_service:/home/kkk/ros2_humble/install/examples_rclpy_minimal_publisher:/home/kkk/ros2_humble/install/examples_rclpy_minimal_client:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_server:/home/kkk/ros2_humble/install/examples_rclpy_minimal_action_client:/home/kkk/ros2_humble/install/examples_rclpy_guard_conditions:/home/kkk/ros2_humble/install/examples_rclpy_executors:/home/kkk/ros2_humble/install/demo_nodes_py:/home/kkk/ros2_humble/install/action_tutorials_py:/home/kkk/ros2_humble/install/ament_uncrustify:/home/kkk/ros2_humble/install/tracetools_trace:/home/kkk/ros2_humble/install/tracetools_read:/home/kkk/ros2_humble/install/test_tracetools_launch:/home/kkk/ros2_humble/install/test_launch_ros:/home/kkk/ros2_humble/install/sensor_msgs_py:/home/kkk/ros2_humble/install/rpyutils:/home/kkk/ros2_humble/install/rosidl_runtime_py:/home/kkk/ros2_humble/install/rosidl_cli:/home/kkk/ros2_humble/install/launch_pytest:/home/kkk/ros2_humble/install/launch_testing:/home/kkk/ros2_humble/install/launch_yaml:/home/kkk/ros2_humble/install/launch_xml:/home/kkk/ros2_humble/install/launch:/home/kkk/ros2_humble/install/osrf_pycommon:/home/kkk/ros2_humble/install/launch_testing_examples:/home/kkk/ros2_humble/install/domain_coordinator:/home/kkk/ros2_humble/install/ament_xmllint:/home/kkk/ros2_humble/install/ament_pyflakes:/home/kkk/ros2_humble/install/ament_pycodestyle:/home/kkk/ros2_humble/install/ament_pep257:/home/kkk/ros2_humble/install/ament_pclint:/home/kkk/ros2_humble/install/ament_package:/home/kkk/ros2_humble/install/ament_mypy:/home/kkk/ros2_humble/install/ament_lint_cmake:/home/kkk/ros2_humble/install/ament_flake8:/home/kkk/ros2_humble/install/ament_copyright:/home/kkk/ros2_humble/install/ament_lint:/home/kkk/ros2_humble/install/ament_index_python:/home/kkk/ros2_humble/install/ament_cpplint:/home/kkk/ros2_humble/install/ament_cppcheck:/home/kkk/ros2_humble/install/ament_clang_tidy:/home/kkk/ros2_humble/install/ament_clang_format /usr/local/bin/cmake --install /home/kkk/total_care_project/build/communication_interface
+[16.952s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface' for CMake module files
+[16.953s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface' for CMake config files
+[16.953s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_interface', 'cmake_prefix_path')
+[17.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/cmake_prefix_path.ps1'
+[17.003s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/cmake_prefix_path.dsv'
+[17.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/cmake_prefix_path.sh'
+[17.005s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/lib'
+[17.005s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_interface', 'ld_library_path_lib')
+[17.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/ld_library_path_lib.ps1'
+[17.054s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/ld_library_path_lib.dsv'
+[17.054s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/ld_library_path_lib.sh'
+[17.055s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/bin'
+[17.055s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/lib/pkgconfig/communication_interface.pc'
+[17.057s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages'
+[17.057s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_interface', 'pythonpath')
+[17.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/pythonpath.ps1'
+[17.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/pythonpath.dsv'
+[17.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/pythonpath.sh'
+[17.107s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/bin'
+[17.156s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.ps1'
+[17.157s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.dsv'
+[17.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.sh'
+[17.158s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.bash'
+[17.159s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.zsh'
+[17.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkk/total_care_project/install/communication_interface/share/colcon-core/packages/communication_interface)
+[17.394s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(communication_interface)
+[17.441s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface' for CMake module files
+[17.442s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface' for CMake config files
+[17.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_interface', 'cmake_prefix_path')
+[17.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/cmake_prefix_path.ps1'
+[17.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/cmake_prefix_path.dsv'
+[17.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/cmake_prefix_path.sh'
+[17.491s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/lib'
+[17.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_interface', 'ld_library_path_lib')
+[17.540s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/ld_library_path_lib.ps1'
+[17.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/ld_library_path_lib.dsv'
+[17.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/ld_library_path_lib.sh'
+[17.541s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/bin'
+[17.541s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/lib/pkgconfig/communication_interface.pc'
+[17.541s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/lib/python3.8/site-packages'
+[17.541s] Level 1:colcon.colcon_core.shell:create_environment_hook('communication_interface', 'pythonpath')
+[17.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/pythonpath.ps1'
+[17.589s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/pythonpath.dsv'
+[17.589s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/hook/pythonpath.sh'
+[17.590s] Level 1:colcon.colcon_core.environment:checking '/home/kkk/total_care_project/install/communication_interface/bin'
+[17.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.ps1'
+[17.637s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.dsv'
+[17.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.sh'
+[17.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.bash'
+[17.638s] INFO:colcon.colcon_core.shell:Creating package script '/home/kkk/total_care_project/install/communication_interface/share/communication_interface/package.zsh'
+[17.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/kkk/total_care_project/install/communication_interface/share/colcon-core/packages/communication_interface)
+[17.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.639s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.639s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.706s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.706s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.706s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.720s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.773s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkk/total_care_project/install/local_setup.ps1'
+[17.774s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kkk/total_care_project/install/_local_setup_util_ps1.py'
+[17.775s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkk/total_care_project/install/setup.ps1'
+[17.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkk/total_care_project/install/local_setup.sh'
+[17.834s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/kkk/total_care_project/install/_local_setup_util_sh.py'
+[17.834s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkk/total_care_project/install/setup.sh'
+[17.892s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkk/total_care_project/install/local_setup.bash'
+[17.892s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkk/total_care_project/install/setup.bash'
+[17.950s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/kkk/total_care_project/install/local_setup.zsh'
+[17.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/kkk/total_care_project/install/setup.zsh'

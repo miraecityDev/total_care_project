@@ -3,7 +3,7 @@
   "output_dir": "/home/kkk/total_care_project/build/communication_interface/rosidl_typesupport_introspection_c/communication_interface",
   "template_dir": "/home/kkk/ros2_humble/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource",
   "idl_tuples": [
-    "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface:srv/Action.idl"
+    "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface:srv/Command.idl"
   ],
   "ros_interface_dependencies": [
     "builtin_interfaces:/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
@@ -18,7 +18,7 @@
     "/home/kkk/ros2_humble/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
     "/home/kkk/ros2_humble/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
     "/home/kkk/ros2_humble/install/rosidl_typesupport_introspection_c/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
-    "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Action.idl",
+    "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Command.idl",
     "/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl",
     "/home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl"
   ]

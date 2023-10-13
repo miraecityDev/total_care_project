@@ -1,0 +1,15 @@
+package.xml
+setup.cfg
+setup.py
+resource/web_controller
+web_controller/__init__.py
+web_controller/user_management.py
+web_controller/web_controller.py
+web_controller.egg-info/PKG-INFO
+web_controller.egg-info/SOURCES.txt
+web_controller.egg-info/dependency_links.txt
+web_controller.egg-info/entry_points.txt
+web_controller.egg-info/requires.txt
+web_controller.egg-info/top_level.txt
+web_controller.egg-info/zip-safe
+web_controller/static/__init__.py

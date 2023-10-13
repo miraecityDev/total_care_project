@@ -1,0 +1,3 @@
+[console_scripts]
+web_controller = web_controller.web_controller:main
+

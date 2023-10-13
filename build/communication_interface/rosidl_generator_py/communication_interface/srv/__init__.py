@@ -1,1 +1,1 @@
-from communication_interface.srv._action import Action  # noqa: F401
+from communication_interface.srv._command import Command  # noqa: F401

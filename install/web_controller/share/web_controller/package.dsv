@@ -1,0 +1,9 @@
+source;share/web_controller/hook/pythonpath.ps1
+source;share/web_controller/hook/pythonpath.dsv
+source;share/web_controller/hook/pythonpath.sh
+source;share/web_controller/hook/ament_prefix_path.ps1
+source;share/web_controller/hook/ament_prefix_path.dsv
+source;share/web_controller/hook/ament_prefix_path.sh
+source;../../build/web_controller/share/web_controller/hook/pythonpath_develop.ps1
+source;../../build/web_controller/share/web_controller/hook/pythonpath_develop.dsv
+source;../../build/web_controller/share/web_controller/hook/pythonpath_develop.sh

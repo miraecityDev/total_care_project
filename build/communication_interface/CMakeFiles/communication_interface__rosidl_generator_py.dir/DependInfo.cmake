@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_action_s.c" "CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o" "gcc" "CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_action_s.c.o.d"
+  "/home/kkk/total_care_project/build/communication_interface/rosidl_generator_py/communication_interface/srv/_command_s.c" "CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o" "gcc" "CMakeFiles/communication_interface__rosidl_generator_py.dir/rosidl_generator_py/communication_interface/srv/_command_s.c.o.d"
   )
 
 # Targets to which this target links.

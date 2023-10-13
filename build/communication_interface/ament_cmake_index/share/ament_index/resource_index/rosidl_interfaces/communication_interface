@@ -1,4 +1,4 @@
-srv/Action.idl
-srv/Action.srv
-srv/Action_Request.msg
-srv/Action_Response.msg
+srv/Command.idl
+srv/Command.srv
+srv/Command_Request.msg
+srv/Command_Response.msg

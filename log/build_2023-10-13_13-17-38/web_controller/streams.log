@@ -1,0 +1,25 @@
+[2.268s] Invoking command in '/home/kkk/total_care_project/build/web_controller': PYTHONPATH=/home/kkk/total_care_project/build/web_controller/prefix_override:/home/kkk/total_care_project/install/web_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkk/total_care_project/build/web_controller/build --no-deps install_data
+[3.052s] running develop
+[3.283s] running egg_info
+[3.283s] creating web_controller.egg-info
+[3.284s] writing web_controller.egg-info/PKG-INFO
+[3.284s] writing dependency_links to web_controller.egg-info/dependency_links.txt
+[3.284s] writing entry points to web_controller.egg-info/entry_points.txt
+[3.284s] writing requirements to web_controller.egg-info/requires.txt
+[3.284s] writing top-level names to web_controller.egg-info/top_level.txt
+[3.286s] writing manifest file 'web_controller.egg-info/SOURCES.txt'
+[3.317s] reading manifest file 'web_controller.egg-info/SOURCES.txt'
+[3.317s] writing manifest file 'web_controller.egg-info/SOURCES.txt'
+[3.367s] running build_ext
+[3.367s] Creating /home/kkk/total_care_project/install/web_controller/lib/python3.8/site-packages/site.py
+[3.371s] Creating /home/kkk/total_care_project/install/web_controller/lib/python3.8/site-packages/web-controller.egg-link (link to .)
+[3.371s] Installing web_controller script to /home/kkk/total_care_project/install/web_controller/lib/web_controller
+[3.371s] 
+[3.372s] Installed /home/kkk/total_care_project/build/web_controller
+[3.372s] running install_data
+[3.372s] creating /home/kkk/total_care_project/install/web_controller/share/ament_index
+[3.372s] creating /home/kkk/total_care_project/install/web_controller/share/ament_index/resource_index
+[3.372s] creating /home/kkk/total_care_project/install/web_controller/share/ament_index/resource_index/packages
+[3.372s] copying resource/web_controller -> /home/kkk/total_care_project/install/web_controller/share/ament_index/resource_index/packages
+[3.372s] copying package.xml -> /home/kkk/total_care_project/install/web_controller/share/web_controller
+[3.407s] Invoked command in '/home/kkk/total_care_project/build/web_controller' returned '0': PYTHONPATH=/home/kkk/total_care_project/build/web_controller/prefix_override:/home/kkk/total_care_project/install/web_controller/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/kkk/total_care_project/build/web_controller/build --no-deps install_data

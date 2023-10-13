@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/communication_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/action__type_support.cpp.o"
-  "CMakeFiles/communication_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/action__type_support.cpp.o.d"
+  "CMakeFiles/communication_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/command__type_support.cpp.o"
+  "CMakeFiles/communication_interface__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/command__type_support.cpp.o.d"
   "libcommunication_interface__rosidl_typesupport_introspection_cpp.pdb"
   "libcommunication_interface__rosidl_typesupport_introspection_cpp.so"
-  "rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/action__rosidl_typesupport_introspection_cpp.hpp"
-  "rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/action__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/command__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/communication_interface/srv/detail/command__type_support.cpp"
 )
 
 # Per-language clean rules from dependency scanning.

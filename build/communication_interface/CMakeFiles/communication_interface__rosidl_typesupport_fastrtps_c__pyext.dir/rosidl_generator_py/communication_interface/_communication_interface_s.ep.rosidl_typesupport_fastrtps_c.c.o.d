@@ -174,9 +174,9 @@ CMakeFiles/communication_interface__rosidl_typesupport_fastrtps_c__pyext.dir/ros
  /home/kkk/ros2_humble/src/ros2/rosidl/rosidl_typesupport_interface/include/rosidl_typesupport_interface/macros.h \
  /home/kkk/ros2_humble/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/service_type_support_struct.h \
  /home/kkk/ros2_humble/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/action_type_support_struct.h \
- /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/action__type_support.h \
+ /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/command__type_support.h \
  /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/msg/rosidl_generator_c__visibility_control.h \
- /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/action__struct.h \
+ /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/command__struct.h \
  /home/kkk/ros2_humble/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/string.h \
  /home/kkk/ros2_humble/src/ros2/rosidl/rosidl_runtime_c/include/rosidl_runtime_c/primitives_sequence.h \
- /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/action__functions.h
+ /home/kkk/total_care_project/build/communication_interface/rosidl_generator_c/communication_interface/srv/detail/command__functions.h

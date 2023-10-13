@@ -66,9 +66,9 @@ include CMakeFiles/communication_interface.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/communication_interface.dir/progress.make
 
-CMakeFiles/communication_interface: /home/kkk/total_care_project/src/communication_interface/srv/Action.srv
-CMakeFiles/communication_interface: rosidl_cmake/srv/Action_Request.msg
-CMakeFiles/communication_interface: rosidl_cmake/srv/Action_Response.msg
+CMakeFiles/communication_interface: /home/kkk/total_care_project/src/communication_interface/srv/Command.srv
+CMakeFiles/communication_interface: rosidl_cmake/srv/Command_Request.msg
+CMakeFiles/communication_interface: rosidl_cmake/srv/Command_Response.msg
 CMakeFiles/communication_interface: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
 CMakeFiles/communication_interface: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
 

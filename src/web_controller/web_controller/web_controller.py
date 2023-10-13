@@ -17,20 +17,20 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.security import OAuth2PasswordBearer, OAuth2PasswordRequestForm
 from fastapi import FastAPI, Form, Request, Depends, HTTPException
 from passlib.context import CryptContext
-import user_management as user_manage
+import web_controller.user_management as user_manage
 import uvicorn
 import rclpy
 from rclpy.node import Node
+from service_clients import clients
 
 
 class WebController(Node):
     def __init__(self):
         super().__init__('web_controller')
 
-
 # 상수
 TEMPLATES_PATH = r"templates"
-STATIC_PATH = r"static"
+STATIC_PATH = r"/home/kkk/total_care_project/src/web_controller/web_controller/static"
 USER = None
 JWT_SECRET = (
     "39b85242046588463de3c2f8083d52a629f790ab97aa79b13d6729614048912f"
@@ -352,6 +352,13 @@ async def robot_move(request: RobotMoveCmd):
     response_data = {"rTime": int(round(time.time(), 0))}
     req_dict = request.dict()
     app.logger.info(req_dict)
+
+    action_service_client = clients.Client('action')
+    response = action_service_client.send_request(req_dict["cmdCode"], req_dict["cmdValue"])
+    action_service_client.destroy_node()
+    rclpy.shutdown()
+    print(f'response: {response.message}')
+
     # client.action(req_dict["cmdCode"], req_dict["cmdValue"])
     return JSONResponse(response_data)
 

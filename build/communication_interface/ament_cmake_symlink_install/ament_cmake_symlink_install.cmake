@@ -358,17 +358,17 @@ include("/home/kkk/total_care_project/build/communication_interface/ament_cmake_
 # install("TARGETS" "communication_interface__rosidl_typesupport_c__pyext" "DESTINATION" "lib/python3.8/site-packages/communication_interface")
 include("/home/kkk/total_care_project/build/communication_interface/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
-# install(FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Action.idl" "DESTINATION" "share/communication_interface/srv")
-ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Action.idl" "DESTINATION" "share/communication_interface/srv")
+# install(FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Command.idl" "DESTINATION" "share/communication_interface/srv")
+ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_adapter/communication_interface/srv/Command.idl" "DESTINATION" "share/communication_interface/srv")
 
-# install(FILES "/home/kkk/total_care_project/src/communication_interface/srv/Action.srv" "DESTINATION" "share/communication_interface/srv")
-ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/src/communication_interface/srv/Action.srv" "DESTINATION" "share/communication_interface/srv")
+# install(FILES "/home/kkk/total_care_project/src/communication_interface/srv/Command.srv" "DESTINATION" "share/communication_interface/srv")
+ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/src/communication_interface/srv/Command.srv" "DESTINATION" "share/communication_interface/srv")
 
-# install(FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Action_Request.msg" "DESTINATION" "share/communication_interface/srv")
-ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Action_Request.msg" "DESTINATION" "share/communication_interface/srv")
+# install(FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Command_Request.msg" "DESTINATION" "share/communication_interface/srv")
+ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Command_Request.msg" "DESTINATION" "share/communication_interface/srv")
 
-# install(FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Action_Response.msg" "DESTINATION" "share/communication_interface/srv")
-ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Action_Response.msg" "DESTINATION" "share/communication_interface/srv")
+# install(FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Command_Response.msg" "DESTINATION" "share/communication_interface/srv")
+ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Command_Response.msg" "DESTINATION" "share/communication_interface/srv")
 
 # install(FILES "/home/kkk/total_care_project/build/communication_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/communication_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/kkk/total_care_project/src/communication_interface" FILES "/home/kkk/total_care_project/build/communication_interface/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/communication_interface" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

@@ -1,0 +1,3 @@
+[console_scripts]
+clients = service_clients.clients:main
+

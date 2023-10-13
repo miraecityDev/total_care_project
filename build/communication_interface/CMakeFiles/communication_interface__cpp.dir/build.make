@@ -66,46 +66,46 @@ include CMakeFiles/communication_interface__cpp.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/communication_interface__cpp.dir/progress.make
 
-CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/action.hpp
-CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/action__builder.hpp
-CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/action__struct.hpp
-CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/action__traits.hpp
+CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/command.hpp
+CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/command__builder.hpp
+CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/command__struct.hpp
+CMakeFiles/communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/command__traits.hpp
 
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/lib/rosidl_generator_cpp/rosidl_generator_cpp
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__builder.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__struct.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__traits.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
-rosidl_generator_cpp/communication_interface/srv/action.hpp: rosidl_adapter/communication_interface/srv/Action.idl
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
-rosidl_generator_cpp/communication_interface/srv/action.hpp: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/lib/rosidl_generator_cpp/rosidl_generator_cpp
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/lib/python3.8/site-packages/rosidl_generator_cpp/__init__.py
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__builder.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__struct.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/action__traits.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__builder.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__struct.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/idl__traits.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__builder.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__struct.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/msg__traits.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__builder.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__struct.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/resource/srv__traits.hpp.em
+rosidl_generator_cpp/communication_interface/srv/command.hpp: rosidl_adapter/communication_interface/srv/Command.idl
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Duration.idl
+rosidl_generator_cpp/communication_interface/srv/command.hpp: /home/kkk/ros2_humble/install/builtin_interfaces/share/builtin_interfaces/msg/Time.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/kkk/total_care_project/build/communication_interface/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code for ROS interfaces"
 	/usr/bin/python3.8 /home/kkk/ros2_humble/install/rosidl_generator_cpp/share/rosidl_generator_cpp/cmake/../../../lib/rosidl_generator_cpp/rosidl_generator_cpp --generator-arguments-file /home/kkk/total_care_project/build/communication_interface/rosidl_generator_cpp__arguments.json
 
-rosidl_generator_cpp/communication_interface/srv/detail/action__builder.hpp: rosidl_generator_cpp/communication_interface/srv/action.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/communication_interface/srv/detail/action__builder.hpp
+rosidl_generator_cpp/communication_interface/srv/detail/command__builder.hpp: rosidl_generator_cpp/communication_interface/srv/command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/communication_interface/srv/detail/command__builder.hpp
 
-rosidl_generator_cpp/communication_interface/srv/detail/action__struct.hpp: rosidl_generator_cpp/communication_interface/srv/action.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/communication_interface/srv/detail/action__struct.hpp
+rosidl_generator_cpp/communication_interface/srv/detail/command__struct.hpp: rosidl_generator_cpp/communication_interface/srv/command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/communication_interface/srv/detail/command__struct.hpp
 
-rosidl_generator_cpp/communication_interface/srv/detail/action__traits.hpp: rosidl_generator_cpp/communication_interface/srv/action.hpp
-	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/communication_interface/srv/detail/action__traits.hpp
+rosidl_generator_cpp/communication_interface/srv/detail/command__traits.hpp: rosidl_generator_cpp/communication_interface/srv/command.hpp
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_cpp/communication_interface/srv/detail/command__traits.hpp
 
 communication_interface__cpp: CMakeFiles/communication_interface__cpp
-communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/action.hpp
-communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/action__builder.hpp
-communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/action__struct.hpp
-communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/action__traits.hpp
+communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/command.hpp
+communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/command__builder.hpp
+communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/command__struct.hpp
+communication_interface__cpp: rosidl_generator_cpp/communication_interface/srv/detail/command__traits.hpp
 communication_interface__cpp: CMakeFiles/communication_interface__cpp.dir/build.make
 .PHONY : communication_interface__cpp
 

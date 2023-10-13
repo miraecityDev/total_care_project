@@ -1,0 +1,1 @@
+/home/kkk/total_care_project/build/communication_interface/rosidl_cmake/srv/Command_Response.msg
