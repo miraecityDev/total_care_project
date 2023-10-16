@@ -1,6 +1,0 @@
-{
-  "package_name": "communication_interface",
-  "non_idl_tuples": [
-    "/home/kkk/total_care_project/src/communication_interface:srv/Command.srv"
-  ]
-}

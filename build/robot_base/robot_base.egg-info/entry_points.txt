@@ -1,4 +1,0 @@
-[console_scripts]
-action_server = robot_base.action_server:main
-command_web_bridge = robot_base.command_web_bridge:main
-
