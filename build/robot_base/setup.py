@@ -1,1 +1,0 @@
-/home/kkk/total_care_project/src/robot_base/setup.py

@@ -6,3 +6,4 @@ communication_interface.egg-info/dependency_links.txt
 communication_interface.egg-info/top_level.txt
 communication_interface/srv/__init__.py
 communication_interface/srv/_action.py
+communication_interface/srv/_command.py
