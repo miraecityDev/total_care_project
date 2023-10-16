@@ -1,0 +1,87 @@
+[0.016s] Invoking command in '/home/kkk/workspace/ros_ur_driver/build/ur_controllers': AMENT_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kkk/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kkk/workspace/ros_ur_driver/install/ur_controllers
+[0.094s] -- The C compiler identification is GNU 9.4.0
+[0.156s] -- The CXX compiler identification is GNU 9.4.0
+[0.165s] -- Check for working C compiler: /usr/bin/cc
+[0.250s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.252s] -- Detecting C compiler ABI info
+[0.347s] -- Detecting C compiler ABI info - done
+[0.365s] -- Detecting C compile features
+[0.366s] -- Detecting C compile features - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++
+[0.463s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.465s] -- Detecting CXX compiler ABI info
+[0.566s] -- Detecting CXX compiler ABI info - done
+[0.581s] -- Detecting CXX compile features
+[0.582s] -- Detecting CXX compile features - done
+[0.583s] -- Found ament_cmake: 1.1.6 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.614s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.614s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.697s] -- Found angles: 1.14.0 (/opt/ros/galactic/share/angles/cmake)
+[0.702s] -- Found controller_interface: 1.6.0 (/opt/ros/galactic/share/controller_interface/cmake)
+[0.733s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.739s] -- Found rosidl_adapter: 2.2.3 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.834s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.862s] -- Found FastRTPS: /opt/ros/galactic/include  
+[0.942s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.484s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.487s] -- Found rmw_cyclonedds_cpp: 0.22.6 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.508s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.509s] -- Looking for pthread.h
+[1.603s] -- Looking for pthread.h - found
+[1.603s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.701s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.702s] -- Looking for pthread_create in pthreads
+[1.788s] -- Looking for pthread_create in pthreads - not found
+[1.789s] -- Looking for pthread_create in pthread
+[1.878s] -- Looking for pthread_create in pthread - found
+[1.880s] -- Found Threads: TRUE  
+[2.178s] -- Found joint_trajectory_controller: 1.5.1 (/opt/ros/galactic/share/joint_trajectory_controller/cmake)
+[2.335s] -- Found realtime_tools: 2.2.0 (/opt/ros/galactic/share/realtime_tools/cmake)
+[2.391s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[2.405s] -- Found ur_dashboard_msgs: 2.1.2 (/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/share/ur_dashboard_msgs/cmake)
+[2.470s] -- Found ur_msgs: 2.0.0 (/opt/ros/galactic/share/ur_msgs/cmake)
+[2.930s] -- Configuring done
+[2.976s] -- Generating done
+[2.978s] -- Build files have been written to: /home/kkk/workspace/ros_ur_driver/build/ur_controllers
+[2.986s] Invoked command in '/home/kkk/workspace/ros_ur_driver/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/kkk/workspace/ros_ur_driver/src/Universal_Robots_ROS2_Driver/ur_controllers -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/kkk/workspace/ros_ur_driver/install/ur_controllers
+[2.990s] Invoking command in '/home/kkk/workspace/ros_ur_driver/build/ur_controllers': AMENT_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kkk/workspace/ros_ur_driver/build/ur_controllers -- -j8 -l8
+[3.045s] [35m[1mScanning dependencies of target ur_controllers[0m
+[3.170s] [ 25%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/scaled_joint_trajectory_controller.cpp.o[0m
+[3.170s] [ 50%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/speed_scaling_state_broadcaster.cpp.o[0m
+[3.171s] [ 75%] [32mBuilding CXX object CMakeFiles/ur_controllers.dir/src/gpio_controller.cpp.o[0m
+[12.589s] [100%] [32m[1mLinking CXX shared library libur_controllers.so[0m
+[12.854s] [100%] Built target ur_controllers
+[12.868s] Invoked command in '/home/kkk/workspace/ros_ur_driver/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/kkk/workspace/ros_ur_driver/build/ur_controllers -- -j8 -l8
+[12.908s] Invoking command in '/home/kkk/workspace/ros_ur_driver/build/ur_controllers': AMENT_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kkk/workspace/ros_ur_driver/build/ur_controllers
+[12.920s] -- Install configuration: "Release"
+[12.920s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[12.920s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/lib/libur_controllers.so
+[12.921s] -- Set runtime path of "/home/kkk/workspace/ros_ur_driver/install/ur_controllers/lib/libur_controllers.so" to ""
+[12.921s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/include
+[12.921s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers
+[12.922s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers/gpio_controller.hpp
+[12.922s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers/speed_scaling_state_broadcaster.hpp
+[12.922s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/include/ur_controllers/scaled_joint_trajectory_controller.hpp
+[12.922s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/controller_plugins.xml
+[12.922s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/library_path.sh
+[12.922s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/library_path.dsv
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/package_run_dependencies/ur_controllers
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/parent_prefix_path/ur_controllers
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.sh
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/ament_prefix_path.dsv
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/path.sh
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/environment/path.dsv
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.bash
+[12.923s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.sh
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.zsh
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/local_setup.dsv
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.dsv
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/packages/ur_controllers
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ur_controllers
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+[12.924s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+[12.925s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig.cmake
+[12.925s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/cmake/ur_controllersConfig-version.cmake
+[12.925s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_controllers/share/ur_controllers/package.xml
+[12.933s] Invoked command in '/home/kkk/workspace/ros_ur_driver/build/ur_controllers' returned '0': AMENT_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/kkk/workspace/ros_ur_driver/install/ur_dashboard_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/kkk/workspace/ros_ur_driver/build/ur_controllers

@@ -1,0 +1,52 @@
+[0.021s] Invoking command in '/home/kkk/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kkk/workspace/ros_ur_driver/build/ur_moveit_config -- -j8 -l8
+[0.072s] Built target ament_cmake_python_copy_ur_moveit_config
+[0.267s] running egg_info
+[0.268s] writing ur_moveit_config.egg-info/PKG-INFO
+[0.268s] writing dependency_links to ur_moveit_config.egg-info/dependency_links.txt
+[0.268s] writing top-level names to ur_moveit_config.egg-info/top_level.txt
+[0.301s] reading manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.303s] writing manifest file 'ur_moveit_config.egg-info/SOURCES.txt'
+[0.335s] Built target ament_cmake_python_build_ur_moveit_config_egg
+[0.348s] Invoked command in '/home/kkk/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/kkk/workspace/ros_ur_driver/build/ur_moveit_config -- -j8 -l8
+[0.389s] Invoking command in '/home/kkk/workspace/ros_ur_driver/build/ur_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kkk/workspace/ros_ur_driver/build/ur_moveit_config
+[0.395s] -- Install configuration: "Release"
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/controllers.yaml
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ompl_planning.yaml
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/ur_servo.yaml
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/config/kinematics.yaml
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/launch/ur_moveit.launch.py
+[0.395s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/rviz/view_robot.rviz
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur.srdf.xacro
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/srdf/ur_macro.srdf.xacro
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.sh
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/pythonpath.dsv
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages//ur_moveit_config.egg-info
+[0.396s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages//ur_moveit_config.egg-info/top_level.txt
+[0.396s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages//ur_moveit_config.egg-info/SOURCES.txt
+[0.396s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages//ur_moveit_config.egg-info/dependency_links.txt
+[0.396s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages//ur_moveit_config.egg-info/PKG-INFO
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config/__init__.py
+[0.396s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config/launch_common.py
+[0.430s] Listing '/home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/ur_moveit_config'...
+[0.438s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/lib/python3.8/site-packages/launch_common.py
+[0.467s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/package_run_dependencies/ur_moveit_config
+[0.467s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/parent_prefix_path/ur_moveit_config
+[0.468s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.sh
+[0.468s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/ament_prefix_path.dsv
+[0.468s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.sh
+[0.469s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/environment/path.dsv
+[0.469s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.bash
+[0.469s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.sh
+[0.469s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.zsh
+[0.469s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/local_setup.dsv
+[0.469s] -- Installing: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.dsv
+[0.470s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ament_index/resource_index/packages/ur_moveit_config
+[0.470s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig.cmake
+[0.470s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/cmake/ur_moveit_configConfig-version.cmake
+[0.470s] -- Up-to-date: /home/kkk/workspace/ros_ur_driver/install/ur_moveit_config/share/ur_moveit_config/package.xml
+[0.472s] Invoked command in '/home/kkk/workspace/ros_ur_driver/build/ur_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/kkk/workspace/ros_ur_driver/build/ur_moveit_config

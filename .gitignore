@@ -1,6 +1,4 @@
 ##
-build/
-install/
-log/
-
-test.txt
+#build/
+#install/
+#log/
