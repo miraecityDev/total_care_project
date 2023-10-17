@@ -23,7 +23,11 @@ def create_user(new_username, new_password):
     """
     try:
         # Check if there is existing user information and initialize it as an empty list if not
-        users_file = "./lib/users.json"
+        directory = "./lib"
+        if not os.path.exists(directory):
+            os.makedirs(directory)
+
+        users_file = os.path.join(directory, "users.json")
         if os.path.exists(users_file):
             with open(users_file, "r", encoding="utf-8") as file:
                 users = json.load(file)

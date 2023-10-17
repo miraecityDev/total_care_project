@@ -65,22 +65,32 @@
         <input type="text" name="username" required><br>
 
         <label for="password">Password:</label>
-        <input type="password" name="password" required><br>
+        <input type="password" name="password" id="password" required><br>
 
-        <button type="submit" id="submitButton">Create Account</button>
+        <label for="passwordConfirm">Confirm Password:</label>
+        <input type="password" name="passwordConfirm" id="passwordConfirm" required><br>
+
+        <button type="submit" id="submitButton" disabled>Create Account</button>
     </form>
     <script>
         const usernameInput = document.querySelector('input[name="username"]');
         const passwordInput = document.querySelector('input[name="password"]');
+        const passwordConfirmInput = document.querySelector('input[name="passwordConfirm"]');
         const submitButton = document.getElementById("submitButton");
 
         // 입력 필드의 내용이 변경될 때 버튼 상태 업데이트
         usernameInput.addEventListener("input", updateButtonState);
         passwordInput.addEventListener("input", updateButtonState);
+        passwordConfirmInput.addEventListener("input", updateButtonState);
 
         function updateButtonState() {
-            // 입력 필드가 비어 있는 경우 버튼 비활성화, 그렇지 않으면 활성화
-            if (usernameInput.value.trim() === "" || passwordInput.value.trim() === "") {
+            // 입력 필드가 비어 있는 경우 버튼 비활성화
+            if (
+                usernameInput.value.trim() === "" ||
+                passwordInput.value.trim() === "" ||
+                passwordConfirmInput.value.trim() === "" ||
+                passwordInput.value !== passwordConfirmInput.value
+            ) {
                 submitButton.disabled = true;
             } else {
                 submitButton.disabled = false;
